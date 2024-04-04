@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <script src="main.js"></script>
+    
     <link rel="stylesheet" href="style.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabaio</title>
+    <title>Jogo</title>
 </head>
 <body>
-
-    <p>Cheque o console do navegador para ver se o javascript funciona!</p>
-    <script>
-        console.log("O javascript funciona!");
-    </script>
-
-    <p>Cheque o console para ver se o botão funciona!</p>
-    <button id="botao_teste" onclick="botao_teste()">Botão teste</button>
-
-    <p id="teste_css">Teste de css</p>
-    
+    <div id="conteudo">
+        <h1>Opção 1</h1>
+        <div id="buttons">
+            <button onclick="escolha(1)">Escolha 1</button>
+            <button onclick="escolha(2)">Escolha 2</button>
+            <button onclick="escolha(3)">Escolha 3</button>
+        </div>
+    </div>
+    <div id="resultado"></div>
 </body>
 </html>
