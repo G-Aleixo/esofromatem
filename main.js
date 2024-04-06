@@ -1,13 +1,13 @@
 function escolha(opcao) {
-    var conteudoElement = document.getElementById("conteudo");
-    var resultadoElement = document.getElementById("resultado");
-    resultadoElement.innerHTML = ""; // Limpa o conteúdo anterior
+    var conteudo = document.getElementById("conteudo");
+    var resultado = document.getElementById("resultado");
 
     switch (opcao) {
         case 1:
-            conteudoElement.innerHTML =
+            conteudo.innerHTML =
             `
-                <h1>Opção 2</h1>
+                <h6>2</h6>
+                <h2>Opção 2</h2>
                 <div id="buttons">
                     <button onclick="escolha(4)">Escolha 4</button>
                     <button onclick="escolha(5)">Escolha 5</button>
@@ -16,9 +16,10 @@ function escolha(opcao) {
             `;
             break;
         case 2:
-            conteudoElement.innerHTML =
+            conteudo.innerHTML =
             `
-                <h1>Opção 3</h1>
+                <h6>2</h6>
+                <h2>Opção 3</h2>
                 <div id="buttons">
                     <button onclick="escolha(7)">Escolha 7</button>
                     <button onclick="escolha(8)">Escolha 8</button>
@@ -27,9 +28,10 @@ function escolha(opcao) {
             `;
             break;
         case 3:
-            conteudoElement.innerHTML =
+            conteudo.innerHTML =
             `
-                <h1>Opção 4</h1>
+                <h6>2</h6>
+                <h2>Opção 4</h2>
                 <div id="buttons">
                     <button onclick="escolha(10)">Escolha 10</button>
                     <button onclick="escolha(11)">Escolha 11</button>
@@ -38,6 +40,6 @@ function escolha(opcao) {
             `;
             break;
         default:
-            resultadoElement.innerHTML = "<h1>Opção inválida</h1>";
+            resultado.innerHTML = "<h1>Opção inválida</h1>";
     }
 }
