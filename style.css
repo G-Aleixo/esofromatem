@@ -21,7 +21,8 @@ button:hover {
 h6 {
     text-align: left;
 }
-h2 {
+p {
     text-align: justify;
     color: rgb(180, 180, 180);
+    font-size: larger;
 }

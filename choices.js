@@ -1,26 +1,23 @@
 var choices_data = {
-    "falta_escolha":
-    `
-    <h2>
-    Está faltando o caminho de alguma escolha!
-    </h2>
-
-    `,
-    "inicio_dormir":
-    `
-    <h2>
-    Texto que indica que tudo continua do mesmo jeito ou alguma coisa assim <br>
-    O alarme/trovão toca novamente, e você acorda com um pulo. <br>
-    Parece que a sua situação não mudou
-    </h2>
-
-    <div id="buttons">
-        <button onclick="escolha('inicio_dormir_gritar')">Devo gritar por ajuda desesperadamente na <br> esperança
-            de que alguem da casa escute</button>
-        <button onclick="escolha('inicio_dormir_despertador')">Vou tentar alcançar o despertador <br> com
-            essa estranha pata mal articulada</button>
-    </div>
-    `,
+    "falta_escolha":{
+        "conteudo": "Está faltando o caminho de alguma escolha!",
+        "botoes": []
+    },
+    "iniciacao": {
+        "conteudo": `Você se chama Gregor Samsa, um homem que trabalha em um trabalho que odeia, sendo você um caixeiro viajante, viajando a todo momento, até mesmo quando não deseja. Você trabalha especificamente para pagar a dívida dos seus pais, dando todo o luxo possível para eles. Você ajuda toda sua família e até se sente bem por isso.
+        Todos da sua família gostam da pessoa que você é.
+        Você mora junto de seus pais e sua irmã chamada Grete`,
+        "botoes": [["inicio_dormir", "Ir dormir"]]
+    },
+    "inicio_dormir": {
+        "conteudo" : `Texto que indica que tudo continua do mesmo jeito ou alguma coisa assim <br>
+        O alarme/trovão toca novamente, e você acorda com um pulo. <br>
+        Parece que a sua situação não mudou`,
+        "botoes": [
+            ["inicio_dormir_gritar", "Devo gritar por ajuda desesperadamente na <br> esperança de que alguem da casa escute"],
+            ["inicio_dormir_despertador", "Vou tentar alcançar o despertador <br> com essa estranha pata mal articulada"]
+        ]
+    },
     "inicio_gritar":
     `
     <h2>
@@ -70,4 +67,12 @@ var choices_data = {
         <button onclick="escolha('falta_escolha')">falta escolha</button>
     </div>`
     // Adicione mais escolhas aqui
+}
+
+const tmp = {
+    "falta_opçcao": {
+        "conteudo":
+            "Está faltando o caminho de alguma escolha!",
+        "botoes": []
+    }
 }
