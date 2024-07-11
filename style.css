@@ -26,3 +26,6 @@ p {
     color: rgb(180, 180, 180);
     font-size: larger;
 }
+h1, h4 {
+    color: darkgray;
+}
