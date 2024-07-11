@@ -26,6 +26,15 @@ p {
     color: rgb(180, 180, 180);
     font-size: larger;
 }
+p.creditos, h4.creditos {
+    font-size: xx-large;
+}
 h1, h4 {
     color: darkgray;
+}
+img.cafe {
+    object-position: left;
+    height: auto;
+    width: 256px;
+    margin-left: -87%;
 }
