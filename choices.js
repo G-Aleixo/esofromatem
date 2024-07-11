@@ -19,60 +19,21 @@ var choices_data = {
         ]
     },
     "inicio_gritar": {
-        "conteudo": `
-        <h2>
-        Você grita por ajuda desesperadamente, mas não ouve resposta. A sensação de desespero aumenta à medida que você percebe que está sozinho nesta situação.
-        </h2>
-    
-        <div id="buttons">
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-        </div>
-        `,
-        "botoes": []
+        "conteudo": `Você grita por ajuda desesperadamente, mas não ouve resposta. A sensação de desespero aumenta à medida que você percebe que está sozinho nesta situação.`,
+        "botoes": [["falta_escolha", "falta escolha"]]
     },
     "inicio_despertador": {
         "conteudo": `
-        <h2>
         Você tenta alcançar o despertador, mas a pata não consegue alcançar o botão de desligar. <br>
-        O alarme toca novamente, e você percebe que não há como desligá-lo.
-        </h2>
-    
-        <div id="buttons">
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-        </div>
-        `,
-        "botoes": []
+        O alarme toca novamente, e você percebe que não há como desligá-lo.`,
+        "botoes": [["falta_escolha", "falta escolha"]]
     },
     "inicio_dormir_gritar": {
-        "conteudo": `
-        <h2>
-        Insira texto aqui após dormir, acordar e gritar
-        </h2>
-    
-        <div id="buttons">
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-        </div>
-        `,
-        "botoes": []
+        "conteudo": `Insira texto aqui após dormir, acordar e gritar`,
+        "botoes": [["falta_escolha", "falta escolha"]]
     },
     "inicio_dormir_despertador": {
-        "conteudo": `
-        <h2>
-        Insira texto aqui após dormir, acordar e tentar alcançar o despertador
-        </h2>
-    
-        <div id="buttons">
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-            <button onclick="escolha('falta_escolha')">falta escolha</button>
-        </div>
-        `,
-        "botoes": []
+        "conteudo": `Insira texto aqui após dormir, acordar e tentar alcançar o despertador`,
+        "botoes": [["falta_escolha", "falta escolha"]]
     }
 }
