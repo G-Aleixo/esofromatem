@@ -1,6 +1,7 @@
 var choices_data = {
     "falta_escolha":{
-        "conteudo": "Está faltando o caminho de alguma escolha!",
+        "conteudo": `Está faltando o caminho de alguma escolha! </p>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&si=o9mAV2W7pCF3amPJ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>`,
         "botoes": []
     },
     "iniciacao": {
