@@ -4,7 +4,7 @@ let choices_data = {
         que você está diferente; não reconhecendo a si mesmo. Olhando para si mesmo, percebe sua diferente aparência. Uma
         cor completamente escura, não conseguindo identificar nada no seu corpo. Seus olhos arregalam com o pensamento 
         claro: "Eu não sou mais eu. O que eu sou? O que aconteceu comigo?"
-        <img style="height: auto; width: 300px;" src="img/Gregor T.gif" alt="">`,
+        <img style="height: auto; width: 300px;" src="../img/Gregor T.gif" alt="">`,
         "botoes": [
             ["olharquarto1", "Olhar ao redor do quarto"],
             ["olharjanela1", "Olhar para a janela"],
