@@ -82,7 +82,7 @@ let choices_data = {
         <h1>O jogo acabou, você foi preso.</h1>
         <p>Acesse os créditos abaixo ou volte ao início  do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = 'creditos.html'">Créditos</button>
-        <button onclick="window.location.href = 'index.html'">Menu</button>`,
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
         "botoes": [
         ]
     },
@@ -92,7 +92,7 @@ let choices_data = {
         <h1>O jogo acabou, você morreu para um policial.</h1>
         <p>Acesse os créditos abaixo ou volte ao início  do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = 'creditos.html'">Créditos</button>
-        <button onclick="window.location.href = 'index.html'">Menu</button>`,
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
         "botoes": [
         ]
     },
