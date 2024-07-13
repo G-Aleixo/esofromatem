@@ -3,7 +3,11 @@ body {
     background-color: rgb(44, 44, 44);
     text-align: center;
 }
-
+body.menu{
+    background-image: url(../img/cidade.gif);
+    background-size: cover;
+    background-position: center;
+}
 button {
     background-color: gray;
     color: white;
@@ -13,7 +17,6 @@ button {
     border-radius: 20px;
     cursor: pointer;
 }
-
 button:hover {
     background-color: darkgray;
 }
@@ -31,12 +34,6 @@ p.creditos, h4.creditos {
 }
 h1, h4 {
     color: darkgray;
-}
-img.cafe {
-    height: auto;
-    width: 230px;
-    margin-right: 20px;
-    float: left;
 }
 img {
     margin-top: 40px;

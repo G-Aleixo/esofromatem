@@ -4,7 +4,7 @@ let choices_data = {
         que você está diferente; não reconhecendo a si mesmo. Olhando para si mesmo, percebe sua diferente aparência. Uma
         cor completamente escura, não conseguindo identificar nada no seu corpo. Seus olhos arregalam com o pensamento 
         claro: "Eu não sou mais eu. O que eu sou? O que aconteceu comigo?"</p>
-        <img style="height: auto; width: 300px;" src="../img/Gregor T.gif" alt="">`,
+        <img style="height: auto; width: 300px;" src="../img/gregorp.gif" alt="">`,
         "botoes": [
             ["olharquarto1", "Olhar ao redor do quarto"],
             ["olharjanela1", "Olhar para a janela"],
@@ -163,7 +163,7 @@ let choices_data = {
             ["continuar5", "Continuar"],
         ]
     },
-    'continur4': {
+    'continuar4': {
         "conteudo": `Apenas por escutar isso vindo da porta da sua casa, você tem certeza que é o seu chefe. Pelo susto 
         disso, suas pernas ficam trémulas, você já não tem mais nada para se segurar; pelo desequilíbrio, você cai no chão 
         e faz um barulho. O tapete do quarto amorteceu o som, mas a sua cabeça bate no chão, fazendo você sentir dores.
@@ -301,7 +301,7 @@ let choices_data = {
         gritar "Socorro, por amor de Deus, socorro!". Enquanto isso seu pai pega a sua bengala e fica balançando a 
         bengala para perto de você. "Gregor, para o quarto, já!".`,
         "botoes": [
-            ["ficarparado2", "Ficar parado"], 
+            ["ficarparado1", "Ficar parado"], 
             ["irquarto1", "Ir ao seu quarto"],
         ]
     },
@@ -404,26 +404,26 @@ let choices_data = {
     },
     'continuar13': {
         "conteudo": `Um mês de sofrência se passa. Você tem fome, medo, preocupação, ansiedade, tristeza etc; sabe-se que 
-        você tem sido o problema da família, não conseguindo ajudar em nada, pelo contrário, só atrapalhando. As pessoas 
+        você tem sido um peso para sua família, não conseguindo ajudar em nada, pelo contrário, só atrapalhando. As pessoas 
         da sua família já nem falam com você direito, até mesmo sua irmã está passando cada vez menos tempo com você.`,
         "botoes": [
-            ["continuar14", "Ficar deitado"], // não fiz
             ["suicidio1", "Desistir de tudo"],
+            ["continuar14", "Ficar deitado sem fazer nada"],
         ]
     },
     'suicidio1': {
-        "conteudo": `Você atrapalha toda sua família, então você finalmente decide ajudar eles com alguma coisa. Você
-        pretende se matar, então se levanta da cama e sem hesitar, sai do quarto.`,
+        "conteudo": `Você está atrapalhando toda sua família, então você finalmente decide ajudar eles com alguma coisa. 
+        Você pretende se matar, então se levanta da cama e sem hesitar, sai do quarto.`,
         "botoes": [
             ["suicidio2", "Ir para a cozinha"],
-            ["suicidio3", "Ir para o terraço do prédio onde mora"], // não fiz
+            ["suicidio3", "Ir para o terraço do prédio onde mora"],
         ]
     },
     'suicidio2': {
         "conteudo": `Você vai até sua cozinha e ninguém está nela, pelo horário, todos devem estar dormindo.`,
         "botoes": [
             ["pegarfaca1", "Procurar alguma lâmina"],
-            ["produtoquimico1", "Procurar algum produto químico"], // não fiz
+            ["produtoquimico1", "Procurar algum produto químico"],
         ]
     },
     'pegarfaca1': {
@@ -449,8 +449,7 @@ let choices_data = {
     },
     'irterraco2': {
         "conteudo": `Você vai correndo ao terraço do prédio, chega lá primeiro que sua irmã. Então consegue se matar sem
-        que ela precise ver. Na beira do prédio, percebe que o lugar é realmente alto; na beira do prédio, você toma sua
-        decisão.`,
+        que ela precise ver. Na beira do prédio, percebe que o lugar é realmente alto; ali, você toma sua decisão final.`,
         "botoes": [
             ["pularterraco1", "Pular do terraço"],
             ["pedirajuda3", "Não se matar e pedir ajuda a sua irmã"], //não fiz
@@ -464,10 +463,50 @@ let choices_data = {
             ["morrerterraco1", "Continuar"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'produtoquimico1': {
+        "conteudo": `Você procura e acha no armário água sanitária, que se você tomar, vai morrer provavelmente sem dores.
+        Você sabe que vai morrer, mas vai morrer ajudando sua família. Você coloca o líquido num copo, e está prestes a 
+        tomar. Mas antes de fazer algo, sua irmã aparece chorando.
+        <br> - Gregor, não faça isso!`,
         "botoes": [
-            ["", ""],
+            ["irterraco2", "Ir correndo ao terraço"],
+            ["pedirajuda3", "Pedir ajuda à sua irmã"], // não fiz
+            ["matarprodutoquimico1", "Tomar a água sanitária e morrer na frente <br> da sua irmã para ajudar sua família"],
+        ]
+    },
+    'matarprodutoquimico1': {
+        "conteudo": `Mesmo com sua irmã na sua frente, você não hesita e toma o produto químico. Você ajudou sua família, 
+        mesmo que não seja da melhor maneira.
+        <h1>O jogo acabou, você se matou tomando água sanitária.</h1>
+        <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
+        <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
+        "botoes": [
+        ]
+    },
+    'suicidio3': {
+        "conteudo": `Do seu quarto você vai direto para o topo do prédio de onde você mora; anda até a beira do prédio e 
+        lá fica olhando. Na beira do prédio, percebe que o lugar é realmente alto; ali você deve tomar sua decisão.`,
+        "botoes": [
+            ["irterraco1", "Se jogar do topo do prédio"],
+            ["voltarquarto2", "Desistir dessa ideia e voltar ao seu quarto"], // não fiz
+        ]
+    },
+    'irterraco1': {
+        "conteudo": `Você toma uma decisão. Mas antes de fazer algo, sua irmã aparece chorando.
+        <br> - Gregor, não faça isso!`,
+        "botoes": [
+            ["pularterraco2", "Se jogar do terraço na frente da <br> sua irmã para ajudar a família"],
+            ["pedirajuda3", "Não se matar e pedir ajuda a sua irmã"], //não fiz
+        ]
+    },
+    'pularterraco2': {
+        "conteudo": `- Irmã, eu te amo. Obrigado.
+        <br> - Gregor! Não! - Grita sua irmã, caindo em lágrimas.
+        <br> Você pula, e tudo começa a ficar em câmera lenta, você percebe que você não tem mais salvação e 
+        começa a chorar no meio da queda.`,
+        "botoes": [
+            ["morrerterraco1", "Continuar"],
         ]
     },
     'morrerterraco1': {
@@ -478,49 +517,43 @@ let choices_data = {
         "botoes": [
         ]
     },
-    '': {
-        "conteudo": ``,
+    'continuar14': {
+        "conteudo": `Você espera que algo aconteça, e mais dias se passam com a mesma rotina. Até que um dia, sua irmã vai 
+        ao seu quarto junto de sua mãe, você está cansado, mas fica feliz por ver sua mãe novamente. Elas duas ficam 
+        tentando levantar uma cômoda que tem no seu quarto; mas elas não conseguem pelo móvel ser muito pesado.`,
         "botoes": [
-            ["", ""],
+            ["falarmaeirma1", "Falar com elas"], // não fiz
+            ["continuar15", "Apenas observar elas"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'continuar15': {
+        "conteudo": `Depois de muito tempo, elas param de tentar tirar a cômoda e tiram outros móveis exceto a cama em que 
+        você está deitado. Em todo esse período, você percebe sua mãe extremamente incomodada ao ficar no seu quarto. 
+        Depois de tirar os móveis, elas duas ficam na sala discutindo o que fazer com os móveis.`,
         "botoes": [
-            ["", ""],
+            ["ficarquarto1", "Continuar deitado"], // não fiz
+            ["irsala1", "Ir à sala falar com sua família"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'irsala1': {
+        "conteudo": `Você sai do quarto tentando ver o que falam e se esconde ao lado de uma porta. Sua irmã percebe que 
+        você está ali e fica fingindo que não lhe viu. Mas logo, sua mãe percebe e ela acaba soltando um berro de susto. 
+        Isso chama a atenção do seu pai, que vai até a sala e depois de lhe ver, com uma cara fechada, ele anda lentamente 
+        até você.`,
         "botoes": [
-            ["", ""],
+            ["continuar16", "Continuar"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'continuar16': {
+        "conteudo": `Esse é mesmo o seu pai? Ele está diferente; constantemente bravo desde sua transformação, enquanto 
+        antes ele pouco se importava com a família. Vivia deitado ou sentado, raramente andando com a família. Agora, ele 
+        está na sua frente, com uma cara que demonstra frustração.`,
         "botoes": [
-            ["", ""],
+            ["enfurecer1", "Você está bravo pelas constantes <br> frustações do seu pai. Por isso, ataca-o"], // não fiz
+            ["encarar1", "Ficar só olhando para seu pai"],
         ]
     },
-    '': {
-        "conteudo": ``,
-        "botoes": [
-            ["", ""],
-        ]
-    },
-    '': {
-        "conteudo": ``,
-        "botoes": [
-            ["", ""],
-        ]
-    },
-    '': {
-        "conteudo": ``,
-        "botoes": [
-            ["", ""],
-        ]
-    },
-    '': {
+    'encarar1': {
         "conteudo": ``,
         "botoes": [
             ["", ""],
