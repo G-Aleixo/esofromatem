@@ -242,6 +242,97 @@ let choices_data = {
             ["fugirjanela1", "Fugir pela janela"],  // não fiz
         ]
     },
+    'sairquarto1': {
+        "conteudo": `Você se levanta, e com dificuldades, acaba girando a chave da porta, destrancando-a.
+        <br> O seu chefe fala "Ouçam, Gregor está dando a volta na chave."
+        <br> Aos poucos você abre a porta para si, abrindo mesmo só metade dela, você vê seus pais e seu chefe encarando
+        a ti com uma péssima feição. Eles só conseguem ver metade de sua cabeça e uma parte do seu torso, mas eles veêm
+        sua figura: um homem humanoide completamente preto, conseguindo notar apenas a cor de seus olhos. `,
+        "botoes": [
+            ["continuar9", "Continuar"],
+        ]
+    },
+    'continuar9': {
+        "conteudo": `Sua mãe tem seus olhos aregalados, seu cabelo bagunçado e uma roupa velha. Ela põe suas mãos na boca, 
+        tenta andar para frente mas cai de joelhos no chão. Ela começa a cair em lágrimas, sem nem falar uma palavra.
+        <br> O seu pai cerrou os punhos com um ar cruel, como se quisesse obrigar Gregor a voltar para o quarto com um 
+        murro; depois, olhou perplexo em torno da sala de estar, cobriu os olhos com as mãos e desatou a chorar, o peito 
+        vigoroso sacudido por soluços.`,
+        "botoes": [
+            ["falarchefe1", "Falar com o chefe"],
+            ["voltarquarto1", "Entrar de volta no quarto e fechar a porta"], // não fiz
+        ]
+    },
+    'falarchefe1': {
+        "conteudo": `- Chefe, estou pronto. Onde vamos? Ao escritório? No caminho podemos falar sobre tudo isso. Bem, eu 
+        estava meio mal, mas agora já estou de pé e pronto para o meu trabalho de caixeiro viajante. Eu estou ciente que 
+        somos perfeitamente profissionais e meu trabalho é muito bem visto pelas pesssoas da empresa, então, mesmo que 
+        não esteja do meu melhor jeito, estou disposto a ir trabalhar! 
+        <br> - Você fala de forma bem calma, por mais que esteja aflito pelo o que houve com seus pais.`,
+        "botoes": [
+            ["reacaochefe1", "Continuar"],
+        ]
+    },
+    'reacaochefe1': {
+        "conteudo": `O seu chefe anda lentamente para fora da sala enquanto você fala, mordendo eles os lábios, com os 
+        olhos trémulos e evitndo olhar diretamente para você. Você sabe que ele não conseguiu prestar atenção em nada que
+        disse. 
+        <br> Seria ótimo se sua irmã estivesse aqui, ela é esperta e provavelmente te ajudaria; e o chefe que é um grande 
+        mulherengo, iria com certeza cair nas palavras dela. Mas ela não está. Além disso, se apenas deixar o chefe ir, 
+        seu trabalho na firma estaria em risco. O que fazer agora?`,
+        "botoes": [
+            ["chefeir1", "Deixar seu chefe ir embora"], // não fiz
+            ["falarchefe2", "Se aproximar do chefe"],
+        ]
+    },
+    'falarchefe2': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
     '': {
         "conteudo": ``,
         "botoes": [
