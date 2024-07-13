@@ -554,37 +554,48 @@ let choices_data = {
         ]
     },
     'encarar1': {
-        "conteudo": ``,
+        "conteudo": `O seu pai está claramente bravo, ele, sem hesitar, te dá um soco no rosto, lhe derrubando de
+        imediato. Com você no chão, o seu pai tira maçãs do bolso e começa a arremessar elas contra você. E então,
+        novamente você está bem machucado por causa do seu pai.`,
         "botoes": [
-            ["", ""],
+            ["continuar17", "Continuar"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'enfurecer1': {
+        "conteudo": `O seu pai está claramente bravo, ele, sem hesitar e até mesmo antes que você fizesse algo, te dá um 
+        soco no rosto, lhe derrubando de imediato. Com você no chão, o seu pai tira maçãs do bolso e começa a arremessar 
+        elas em você enquanto lhe espancava muito. E então, novamente você está bem machucado por causa do seu pai.`,
         "botoes": [
-            ["", ""],
+            ["continuar17", "Continuar"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'continuar17': {
+        "conteudo": `Seu pai te bateu muito nessa noite, até parecia que ele nem se importava de você ser o filho dele.
+        Você se machucou bastante, e perdendo até a capacidade de andar de forma normal por causa dos ferimentos.
+        <br> A vida da família Samsa mudou completamente e virou de cabeça para baixo em míseros meses. A irmã agora
+        é caixeira enquanto estuda; a mãe teve seu trabalho doméstico multiplicado por causa da demissão da criada
+        e as despesas tiveram que ser diminuidas. 
+        <br> Depois disso, seria importante ir dormir.`,
         "botoes": [
-            ["", ""],
+            ["continuar18", "Dormir"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'continuar18': {
+        "conteudo": `Você acaba dormindo... mas não por muito tempo. Você é surpreendido por um alto barulho vindo da
+        sala de estar e fica escutando murmuros da sua irmã e seu pai.`,
         "botoes": [
-            ["", ""],
+            ["ignorar1", "Ignorar o que falam"],
+            ["irescutar1", "Se levantar e escutar a conversa pela porta"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'ignorar1': {
+        "conteudo": `<p style="font-size: xx-large;">Você não consegue ignorar por estar muito curioso.</p>`,
         "botoes": [
-            ["", ""],
+            ["irescutar1", "Se levantar e escutar a conversa pela porta"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'irescutar1': {
+        "conteudo": `- Eu não aguento mais pai!`,
         "botoes": [
             ["", ""],
         ]
