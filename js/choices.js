@@ -80,7 +80,7 @@ let choices_data = {
         "conteudo": `Você fica parado e os policiais te prendem depois de te baterem. Você não entende bem o motivo. Você 
         é lavado a prisão e fica numa sala, sozinho, afastado de todos. 
         <h1>O jogo acabou, você foi preso.</h1>
-        <p>Acesse os créditos abaixo ou volte ao início  do jogo caso queira jogar novamente :)</p>
+        <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
         "botoes": [
@@ -90,7 +90,7 @@ let choices_data = {
         "conteudo": `Você se mexe um pouco para o lado e se prepara para correr; mas antes que possa fazer qualquer 
         coisa <br> - Atira nessa aberração! <br> O policial atira em você, causando sua morte.
         <h1>O jogo acabou, você morreu para um policial.</h1>
-        <p>Acesse os créditos abaixo ou volte ao início  do jogo caso queira jogar novamente :)</p>
+        <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
         "botoes": [
@@ -353,7 +353,7 @@ let choices_data = {
         passos próximo ao seu qaurto e logo em seguida uma pessoa abre a porta. Sua irmã trás para você comida numa folha 
         de jornal e sem falar nada deixa no chão e logo sai do quarto.`,
         "botoes": [
-            ["comercomida1", "Comer a comida"], // não fiz
+            ["comercomida1", "Comer a comida"],
             ["naocomer1", "Não comer a comida"],
         ]
     },
@@ -377,10 +377,159 @@ let choices_data = {
     },
     'morrer1': {
         "conteudo": `<h1>O jogo acabou, você morreu por não comer ou beber algo.</h1>
-        <p>Acesse os créditos abaixo ou volte ao início  do jogo caso queira jogar novamente :)</p>
+        <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
         "botoes": [
+        ]
+    },
+    'comercomida1': {
+        "conteudo": `Você se levanta e vê que sua irmã trouxe restos de comida e alguns peticos para você. Você come uma 
+        parte dessa comida, não conseguindo comer a comida toda pelo horrível gosto que ela tem. 
+        <br> - Por que a comida está tão ruim mesmo estando como de costume?`,
+        "botoes": [
+            ["continuar12", "Continuar"],
+        ]
+    },
+    'continuar12': {
+        "conteudo": `Depois disso, você volta para a cama e lá fica. Essas mesmas coisas acontecem dia após dia. Sua irmã 
+        leva restos de comida e você sempre come pouco, cada vez diminuindo a quantia que você comeu. É frequente as 
+        conversas que as pessoas da sua casa têm sobre você, com elas se perguntando "O que fazer?", "Como fazer?" e "E o 
+        dinheiro?". A economia da família era o que mais preocupava a todos, pois além de uma dívida a pagar, há uma 
+        família para sustentar. 
+        <br> Mesmo no quarto, você consegue escutar as pessoas falando mal de você.`,
+        "botoes": [
+            ["continuar13", "Continuar"],
+        ]
+    },
+    'continuar13': {
+        "conteudo": `Um mês de sofrência se passa. Você tem fome, medo, preocupação, ansiedade, tristeza etc; sabe-se que 
+        você tem sido o problema da família, não conseguindo ajudar em nada, pelo contrário, só atrapalhando. As pessoas 
+        da sua família já nem falam com você direito, até mesmo sua irmã está passando cada vez menos tempo com você.`,
+        "botoes": [
+            ["continuar14", "Ficar deitado"], // não fiz
+            ["suicidio1", "Desistir de tudo"],
+        ]
+    },
+    'suicidio1': {
+        "conteudo": `Você atrapalha toda sua família, então você finalmente decide ajudar eles com alguma coisa. Você
+        pretende se matar, então se levanta da cama e sem hesitar, sai do quarto.`,
+        "botoes": [
+            ["suicidio2", "Ir para a cozinha"],
+            ["suicidio3", "Ir para o terraço do prédio onde mora"], // não fiz
+        ]
+    },
+    'suicidio2': {
+        "conteudo": `Você vai até sua cozinha e ninguém está nela, pelo horário, todos devem estar dormindo.`,
+        "botoes": [
+            ["pegarfaca1", "Procurar alguma lâmina"],
+            ["produtoquimico1", "Procurar algum produto químico"], // não fiz
+        ]
+    },
+    'pegarfaca1': {
+        "conteudo": `Você procura e acha uma faca de cortar carne muito afiada. Você sabe que isso vai ser doloroso, mas
+        vai ajudar sua família. Você deixa a ponta da faca apontada para o seu pescoço. Mas antes de fazer algo, sua irmã
+        aparece chorando.
+        <br> - Gregor, não faça isso!`,
+        "botoes": [
+            ["irterraco2", "Ir correndo ao terraço"],
+            ["pedirajuda3", "Pedir ajuda à sua irmã"], // não fiz
+            ["matarfaca1", "Se matar com a faca na frente de <br> sua irmã para ajudar a família"],
+        ]
+    },
+    'matarfaca1': {
+        "conteudo": `Mesmo com sua irmã na sua frente, você não hesita e se mata. Você ajudou sua família, mesmo que não
+        seja da melhor maneira.
+        <h1>O jogo acabou, você se matou com uma faca.</h1>
+        <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
+        <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
+        "botoes": [
+        ]
+    },
+    'irterraco2': {
+        "conteudo": `Você vai correndo ao terraço do prédio, chega lá primeiro que sua irmã. Então consegue se matar sem
+        que ela precise ver. Na beira do prédio, percebe que o lugar é realmente alto; na beira do prédio, você toma sua
+        decisão.`,
+        "botoes": [
+            ["pularterraco1", "Pular do terraço"],
+            ["pedirajuda3", "Não se matar e pedir ajuda a sua irmã"], //não fiz
+        ]
+    },
+    'pularterraco1': {
+        "conteudo": `Você pula, e tudo começa a ficar em câmera lenta, você percebe que você não tem mais salvação e 
+        começa a chorar no meio da queda. 
+        <br> - Família... eu amo vocês.`,
+        "botoes": [
+            ["morrerterraco1", "Continuar"],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    'morrerterraco1': {
+        "conteudo": `<h1>O jogo acabou, você se matou pulando do terraço.</h1>
+        <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
+        <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
+        "botoes": [
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
         ]
     },
     '': {
