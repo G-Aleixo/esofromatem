@@ -44,7 +44,7 @@ let choices_data = {
         lá o quanto antes. 
         <br> Ao olhar ao relógio que fica em cima da cômoda, nota que já são 6h30. O relógio deveria tocar às quatro da 
         manhã. Todavia, agora já era. O que fazer? O próximo trem passa às sete horas; mas para chegar a tempo, deveria 
-        correr e muito. Mesmo que você consiga pegar o trem, ouvirá muitas reclamações do seu chefe. `,
+        correr e muito. Mesmo que você consiga pegar o trem, ouvirá muitas reclamações do seu chefe.`,
         "botoes": [
             ["ficarcasa1", "Ficar deitado"],
             ["irtrem1", "Sair correndo para a estação de trem"],
@@ -281,11 +281,121 @@ let choices_data = {
         mulherengo, iria com certeza cair nas palavras dela. Mas ela não está. Além disso, se apenas deixar o chefe ir, 
         seu trabalho na firma estaria em risco. O que fazer agora?`,
         "botoes": [
-            ["chefeir1", "Deixar seu chefe ir embora"], // não fiz
+            ["chefeir1", "Deixar seu chefe ir embora"],
             ["falarchefe2", "Se aproximar do chefe"],
         ]
     },
     'falarchefe2': {
+        "conteudo": `Você sai do quarto, seus pais ainda calados até evitam olhar para vocês assim como o seu chefe. 
+        Mas você vai até o chefe que até mesmo está se segurando num corrimão. Você quer ter o seu futuro, então deve ir 
+        atrás para não perder o emprego. 
+        <br> Quanto mais você se aproximava, mais todos ali perto sentiam pavor. Até que o chefe se vira para a porta 
+        para sair da casa e corre.`,
+        "botoes": [
+            ["falarchefe3", "Seguir ele para falar com ele"],
+            ["chefeir1", "Deixar ele ir"],
+        ]
+    },
+    'falarchefe3': {
+        "conteudo": `Você vê o chefe saindo da sua casa e antes que pudesse fazer qualquer coisa, sua mãe começa a 
+        gritar "Socorro, por amor de Deus, socorro!". Enquanto isso seu pai pega a sua bengala e fica balançando a 
+        bengala para perto de você. "Gregor, para o quarto, já!".`,
+        "botoes": [
+            ["ficarparado2", "Ficar parado"], 
+            ["irquarto1", "Ir ao seu quarto"],
+        ]
+    },
+    'chefeir1': {
+        "conteudo": `Você vê o chefe saindo da sua casa, sua mãe começa a gritar "Socorro, por amor de Deus, socorro!". 
+        Enquanto isso seu pai pega a sua bengala e fica balançando a bengala para perto de você. "Gregor, para o quarto, 
+        já!".`,
+        "botoes": [
+            ["ficarparado1", "Ficar parado"], 
+            ["irquarto1", "Ir ao seu quarto"],
+        ]
+    },
+    'ficarparado1': {
+        "conteudo": `Seu pai andando aos poucos chega próximo de você e acaba até mesmo te batendo com a bengala e te 
+        empurrando para próximo do seu quarto. "Gregor, vai!" ele grita. Enquanto você não vai, a bengala dele te 
+        machuca bastante, com ela tendo manchas de sangue de seus machucados.`,
+        "botoes": [
+            ["irquarto1", "Ir ao quarto"],
+        ]
+    },
+    'irquarto1': {
+        "conteudo": `Você entra no seu quarto enquanto seu pai te acompanha e assim que coloca um pé no quarto, seu pai 
+        te empurra e fecha a porta de forma brusca. Você acaba se sentindo cansado por toda essa confusão, mas ao mesmo 
+        tempo, preocupação e medo. No chão, acaba dormindo e chorando.`,
+        "botoes": [
+            ["continuar10", "Ir para a cama e dormir lá"],
+            ["continuar10", "Dormir no chão"],
+        ]
+    },
+    'continuar10': {
+        "conteudo": `Passa-se um tempo, você não sabe quanto, mas quando acorda, está escuro, mesmo com a janela aberta. 
+        Então você se levanta. Depois de passar muito tempo sem comer, você escuta roncos vindo de si mesmo; logo você 
+        vê uma tigela de sopa no chão provavelmente quem colocou lá foi sua irmã.`,
+        "botoes": [
+            ["tomarsopa1", "Tomar a sopa"],
+            ["naocomer1", "Não tomar a sopa"],
+        ]
+    },
+    'tomarsopa1': {
+        "conteudo": `Você pega a tigela e tenta tomar, mas assim que toma se quer um pouco, cospe no chão o que estava na 
+        sua boca. O gosto está horrível, não se sabe o porquê. Desanimado, você vai até sua cama e se deita; lá fica por 
+        um tempão, sem conseguir dormir.`,
+        "botoes": [
+            ["continuar11", "Tentar dormir"],
+        ]
+    },
+    'continuar11': {
+        "conteudo": `Pelo horário, muito provavelmente todos da sua casa já devem estar dormindo; mas então você escuta 
+        passos próximo ao seu qaurto e logo em seguida uma pessoa abre a porta. Sua irmã trás para você comida numa folha 
+        de jornal e sem falar nada deixa no chão e logo sai do quarto.`,
+        "botoes": [
+            ["comercomida1", "Comer a comida"], // não fiz
+            ["naocomer1", "Não comer a comida"],
+        ]
+    },
+    'naocomer1': {
+        "conteudo": `Você decide não comer nada. Sua fome aumenta, assim como a sede. Você começa a ter muitos pensamentos
+        paralelos, e no fim, não conseguir pensar no que fazer. Em pé, você fica girando em círculos, indo até a janela e
+        pensando em fugir; em deixar sua família para não terem mais problemas.`,
+        "botoes": [
+            ["fugirjanela1", "Fugir pela janela"],  // não fiz
+            ["deitarcama1", "Deitar na cama"],
+        ]
+    },
+    'deitarcama1': {
+        "conteudo": `Você deita na sua cama. Seus pensamentos param, você fica fazendo nada por horas até ficar com sono.
+        Você fecha o olho lentamente; sua visão fica preta e você vai perdendo a consciência aos poucos. Chega num momento,
+        que seu corpo fala mais alto, seus intestinos não tem de onde tirar energia. Você acaba morrendo de 
+        fome e desidratação.`,
+        "botoes": [
+            ["morrer1", "Continuar"],
+        ]
+    },
+    'morrer1': {
+        "conteudo": `<h1>O jogo acabou, você morreu por não comer ou beber algo.</h1>
+        <p>Acesse os créditos abaixo ou volte ao início  do jogo caso queira jogar novamente :)</p>
+        <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
+        "botoes": [
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
         "conteudo": ``,
         "botoes": [
             ["", ""],
