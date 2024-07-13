@@ -81,7 +81,7 @@ let choices_data = {
         é lavado a prisão e fica numa sala, sozinho, afastado de todos. 
         <h1>O jogo acabou, você foi preso.</h1>
         <p>Acesse os créditos abaixo ou volte ao início  do jogo caso queira jogar novamente :)</p>
-        <button onclick="window.location.href = 'creditos.html'">Créditos</button>
+        <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
         "botoes": [
         ]
@@ -91,7 +91,7 @@ let choices_data = {
         coisa <br> - Atira nessa aberração! <br> O policial atira em você, causando sua morte.
         <h1>O jogo acabou, você morreu para um policial.</h1>
         <p>Acesse os créditos abaixo ou volte ao início  do jogo caso queira jogar novamente :)</p>
-        <button onclick="window.location.href = 'creditos.html'">Créditos</button>
+        <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
         "botoes": [
         ]
