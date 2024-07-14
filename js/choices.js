@@ -52,7 +52,7 @@ let choices_data = {
     },
     'irtrem1': {
         "conteudo": `Você rapidamente se levanta e, sem comer nada, sai do quarto correndo e sai de casa. Ninguém da sua 
-        casa vê você saindo. Estando na rua, você percebe que muitas pessoas na rua te olham esranho, ficam susurrando 
+        casa vê você saindo. Estando na rua, você percebe que muitas pessoas na rua te olham estranho, ficam susurrando 
         coisas que você não entende.`,
         "botoes": [
             ["voltarcasa1", "Voltar para casa"],
@@ -109,8 +109,30 @@ let choices_data = {
         sete horas e realmente perdeu o horário de trabalho. Você então escuta batidas cautelosas na porta. Você então 
         percebe a voz de sua mãe falando "Gregor? Já são sete horas. Não tem que pegar o trem?"`,
         "botoes": [
-            ["pedirajuda1", "Falar com sua mãe sobre o seu problema"], // não fiz
+            ["pedirajuda1", "Falar com sua mãe sobre o seu problema"],
             ["continuar2", "- Sim, sim, obrigado, mãe, já vou levantar."],
+        ]
+    },
+    'pedirajuda1': {
+        "conteudo": `- Mãe, aconteceu alguma coisa comigo, eu não sei explicar bem...
+        <br> - Oh Deus, você está doente meu filho? Quer que eu vá chamar um médico? Abra essa porta para eu ver se é grave.
+        <br> - Não é bem uma doença, eu acho; é algo que está acontecendo no meu corpo. Eu irei abrir a porta, mas por 
+        favor, não surta.`,
+        "botoes": [
+            ["continuar20", "Abrir a porta"],
+        ]
+    }, 
+    'continuar20': {
+        "conteudo": `Com esse diálogo que você tem com sua mãe, as pessoas da família percebem que você está em casa.
+        `, // CONTINUAR ESCRITA. FAZER TODOS "NÃO FIZ"
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
+        "botoes": [
+            ["", ""],
         ]
     },
     'continuar2': {
@@ -275,7 +297,7 @@ let choices_data = {
     },
     'reacaochefe1': {
         "conteudo": `O seu chefe anda lentamente para fora da sala enquanto você fala, mordendo eles os lábios, com os 
-        olhos trémulos e evitndo olhar diretamente para você. Você sabe que ele não conseguiu prestar atenção em nada que
+        olhos trémulos e evitando olhar diretamente para você. Você sabe que ele não conseguiu prestar atenção em nada que
         disse. 
         <br> Seria ótimo se sua irmã estivesse aqui, ela é esperta e provavelmente te ajudaria; e o chefe que é um grande 
         mulherengo, iria com certeza cair nas palavras dela. Mas ela não está. Além disso, se apenas deixar o chefe ir, 
@@ -350,7 +372,7 @@ let choices_data = {
     },
     'continuar11': {
         "conteudo": `Pelo horário, muito provavelmente todos da sua casa já devem estar dormindo; mas então você escuta 
-        passos próximo ao seu qaurto e logo em seguida uma pessoa abre a porta. Sua irmã trás para você comida numa folha 
+        passos próximo ao seu quarto e logo em seguida uma pessoa abre a porta. Sua irmã trás para você comida numa folha 
         de jornal e sem falar nada deixa no chão e logo sai do quarto.`,
         "botoes": [
             ["comercomida1", "Comer a comida"],
@@ -452,7 +474,7 @@ let choices_data = {
         que ela precise ver. Na beira do prédio, percebe que o lugar é realmente alto; ali, você toma sua decisão final.`,
         "botoes": [
             ["pularterraco1", "Pular do terraço"],
-            ["pedirajuda3", "Não se matar e pedir ajuda a sua irmã"], //não fiz
+            ["pedirajuda3", "Não se matar e pedir ajuda a sua irmã"], // não fiz
         ]
     },
     'pularterraco1': {
@@ -595,39 +617,77 @@ let choices_data = {
         ]
     },
     'irescutar1': {
-        "conteudo": `- Eu não aguento mais pai!`,
+        "conteudo": `- Eu não aguento mais pai! Nós temos que nos livrar dele agora! O Gregor não é mais ele mesmo. Faz
+        tempo que ele deixou de ser, você está ciente disso. A gente tentou cuidar desse bicho até não aguentarmos mais;
+        continuar cuidando dele não é mais algo humano! Se ele ainda fosse o meu irmão, ele saberia que seria muito melhor
+        para nós se ele se fosse.
+        <br> Grete diz isso em voz alta para o pai enquanto ele concorda.
+        <br> - Temos que nos ver livres dele. - Diz sua irmã.`,
         "botoes": [
-            ["", ""],
+            ["falarfamilia1", "Sair do quarto <br> e falar com eles"], // não fiz
+            ["fugirjanela1", "Fugir pela janela"], // não fiz
+            ["espiar1", "Tentar ver o que fazem"], // não fiz
+            ["suicidio4", "Se matar para ajudar a família"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'suicidio4': {
+        "conteudo": `Você decide então pôs fim a sua vida para ajudar a família. Você fica inquieto no quarto, sem saber
+        se essa é a única opção. Você espera até todos estarem dormindo, então você decide o que vai realmente fazer.`,
         "botoes": [
-            ["", ""],
+            ["suicidio2", "Ir para a cozinha"],
+            ["suicidio3", "Ir para o terraço do prédio onde mora"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'espiar1': {
+        "conteudo": `Você abre a porta lentamente, então vê a situação: sua mãe dormindo numa cadeira, Grete em pé, na
+        frente do pai, que está sentado em uma poltrona. Você tenta ser silencioso, mas os dois que falavam param de
+        falar ao ouvir rangidos da porta que você abriu.
+        <br> Sua irmã se vira na sua direção e, com uma cara frustrada, ela entra no seu quarto, faz algo que você não
+        consegue prestar atenção e logo sai do quarto.`,
         "botoes": [
-            ["", ""],
+            ["continuar19", "Ficar parado"],
+            ["implorarajuda1", "Pedir ajuda à sua irmã"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'continuar19': {
+        "conteudo": `Você não faz nada, não consegue nem mesmo falar algo. Assim que Grete sai do quarto, ela fica na sua
+        frente te encarando e te dá um empurrão.
+        <br> Você cai no chão e ela rapidamente fecha a porta com força e tranca-a. Você está preso no seu quarto.`,
         "botoes": [
-            ["", ""],
+            ["aceitar1", "Aceitar que sua família não lhe quer mais."],
+            ["fugirjanela2", "Tentar fugir de sua casa pela janela do seu quarto"], 
         ]
     },
-    '': {
-        "conteudo": ``,
+    'fugirjanela2': {
+        "conteudo": `Você tenta abrir a porta do seu quarto, ela está realmente fechada. Então logo vai até a janela.
+        Quando você da conta, a janela está trancada com uma chave.
+        <br> - Até que fim! Não vou mais ver essa aberração. - Fala Grete para o pai
+        <br> Você começa a cair em lágrimas, pensando que só tem mais uma escolha.`,
         "botoes": [
-            ["", ""],
+            ["aceitar1", "Aceitar que sua família não lhe quer mais."],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'aceitar1': {
+        "conteudo": `Você se deita na sua cama enquanto cai em choro. Seus pais junto de sua irmã começam a falar de
+        planos futuros que, claramente, você não está incluido.`,
         "botoes": [
-            ["", ""],
+            ["serabandonado1", "Aceitar a decisão da sua irmã"],
+        ]
+    },
+    'serabandonado1': {
+        "conteudo": `<h1>O jogo acabou, você foi abandonado pela família e morto depois de um tempo.</h1>
+        <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
+        <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
+        "botoes": [
+        ]
+    },
+    'implorarajuda1': {
+        "conteudo": `- Grete, minha irmã; por favor, me ajude!
+        <br> - Cala a merda da boca, aberração. Você é a causa da desgraça na nossa família!
+        <br> Sua irmã fala isso na sua frente, você fica em choque, sem nem saber como reagir.`,
+        "botoes": [
+            ["continuar19", "Continuar"],
         ]
     },
     '': {
