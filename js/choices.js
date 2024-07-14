@@ -141,21 +141,61 @@ let choices_data = {
     'continuarajuda2': {
         "conteudo": `Logo após sua fala, elas ficam olhando uma para a outra e para você. Então, sua mãe fala enquanto cai
         algumas lágrimas do seu rosto.
-        <br> - Filho, `,
+        <br> - Filho, o que houve com você meu filho? Você não pode ir ao trabalho nesse estado... eu não sei o que é isso.
+        Você precisa ir ao hospital! Grete, ligue para o trabalho de Gregor, fale que ele está com uma grave doença! Meu
+        filho querido, eu vou te ajudar com qualquer coisa possível!
+        <br> Sua irmã vai atrás do telefone para falar com seu chefe para justificar sua falta. E sua mãe, ao fim de sua
+        fala, ela te dá um grande e caloroso abraço.`,
         "botoes": [
-            ["", ""],
+            ["aceitarajuda1", "Aceitar a ajuda da mãe"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'aceitarajuda1': {
+        "conteudo": `Sua mãe e sua irmã fazem de tudo para te ajudar, por mais que achem estranho tudo isso que você
+        passa. Sua mãe tenta te dar remédios, enquanto sua irmã tenta marcar uma consulta no hospital para você.
+        Já o seu pai, acha que isso é falta de orações na família de vocês. Um tempo se passa, sua família se torna mais
+        unida, e finalmente chega um dia que você vai ao médico.`,
         "botoes": [
-            ["", ""],
+            ["continuarajuda3", "Ir ao médico"],
         ]
     },
-    '': {
-        "conteudo": ``,
+    'continuarajuda3': {
+        "conteudo": `Você vai ao médico e, pelo incrível que pareça, o médico não se assusta ao te ver, ele apenas fica
+        com receio de ser uma doença altamente contagiosa. Ao conversar com o médico, ele afirma que você não é a
+        primeira pessoa que aparece assim no mundo, e que é algo temporário.`,
         "botoes": [
-            ["", ""],
+            ["continuar21", "Continuar"],
+        ]
+    },
+    'continuar21': {
+        "conteudo": `Você convive normalmente assim com sua família e aos poucos, você volta ao trabalho mesmo nessa forma
+        desconfigurada. O jornal da sua cidade faz reportagens sobre você, e dias depois passa a ser compartilhado no mundo
+        que isso é algo que está ocorrendo com pessoas específicas, havendo dezenas de casos. Contudo, não há informações
+        concretas sobre isso pela falta de conhecimento científico.`,
+        "botoes": [
+            ["familiaaceitar1", "Conviver com essa 'doença'"],
+            ["estudar1", "Estudar para descobrir a cura dessa 'doença'"],
+        ]
+    },
+    'familiaaceitar1': {
+        "conteudo": `Por mais que não seja o melhor dos mundos, grande parte da sociedade aceita as pessoas que tiveram
+        essa metamorfose. Então você passou a viver tranquilamente com sua família, como se nada tivesse ocorrido.
+        <h1>O jogo acabou, você foi aceitado pela família.</h1>
+        <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
+        <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
+        "botoes": [
+        ]
+    },
+    'estudar1': {
+        "conteudo": `Por mais que não seja o melhor dos mundos, grande parte da sociedade aceita as pessoas que tiveram
+        essa metamorfose. Você começa a estudar medicina e matérias de ciência para tentar achar a cura dessa doença.
+        Você não conseguiu, mas Gregor Samsa é o nome de um dos médicos que ajudou.
+        <h1>O jogo acabou, você foi aceitado pela família.</h1>
+        <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
+        <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
+        "botoes": [
         ]
     },
     'continuar2': {
@@ -165,16 +205,37 @@ let choices_data = {
         de alguma coisa?"`,
         "botoes": [
             ["continuar3", "- Eu estou bem, quase pronto para sair."],
-            ["deixarquieto1", "- Me deixem quieto!"], // não fiz
+            ["deixarquieto1", "- Me deixem quieto!"],
+        ]
+    },
+    'deixarquieto1': {
+        "conteudo": `Você fala com grosseiria com sua família, seus pais ficam estressados, e sua irmã preocupada.`,
+        "botoes": [
+            ["continuar3", "Continuar"],
         ]
     },
     'continuar3': {
         "conteudo": `Seus pais saem, mas sua irmã continua na frente da porta. "Abra essa porta logo, Gregor." Fala ela
         depois de tentar abrir a porta e não conseguindo (pois está trancada).`,
         "botoes": [
-            ["pedirajuda2", "Falar com sua irmã sobre o seu problema"], // não fiz
+            ["pedirajuda2", "Falar com sua irmã sobre o seu problema"],
             ["irporta1", "Se levantar e ir até a porta"],
             ["ficardeitado1", "Continuar deitado"],
+        ]
+    },
+    'pedirajuda2': {
+        "conteudo": `- Grete, aconteceu alguma coisa comigo, eu não sei explicar bem...
+        <br> - Vixe, você tá doente por acaso? Quer que eu vá chamar um médico? Abra essa porta para eu verificar isso.
+        <br> - Não é bem uma doença, eu acho; é algo que está acontecendo no meu corpo. Eu irei abrir a porta, mas por 
+        favor, não surte.`,
+        "botoes": [
+            ["continuar22", "Abrir a porta"],
+        ]
+    },
+    'continuar22': {
+        "conteudo": `Com esse diálogo que você tem com sua mãe, as pessoas da família percebem que você está em casa. Vocêabre a porta, então seu pai nem te estranha, mas quando você percebe sua irmã está junto de sua mãe. Assim que elaste veem, te estranham, te olham com choque. Você pede ajuda às mulheres da sua casa, sua mãe entra em prantos, sem saber o que fazer, assim comosua irmã Grete.`,
+        "botoes": [
+            ["", ""], // FAZER AQUI
         ]
     },
     'irporta1': {
@@ -711,12 +772,6 @@ let choices_data = {
         <br> Sua irmã fala isso na sua frente, você fica em choque, sem nem saber como reagir.`,
         "botoes": [
             ["continuar19", "Continuar"],
-        ]
-    },
-    '': {
-        "conteudo": ``,
-        "botoes": [
-            ["", ""],
         ]
     },
     '': {
