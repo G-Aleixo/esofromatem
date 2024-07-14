@@ -123,8 +123,31 @@ let choices_data = {
         ]
     }, 
     'continuar20': {
-        "conteudo": `Com esse diálogo que você tem com sua mãe, as pessoas da família percebem que você está em casa.
-        `, // CONTINUAR ESCRITA. FAZER TODOS "NÃO FIZ"
+        "conteudo": `Com esse diálogo que você tem com sua mãe, as pessoas da família percebem que você está em casa. Você
+        abre a porta, então seu pai nem te estranha, mas quando você percebe sua irmã está junto de sua mãe. Assim que elas
+        te veem, te estranham, te olham com choque.`,
+        "botoes": [
+            ["continuarajuda1", "- Por favor, me ajudem"],
+        ]
+    },
+    'continuarajuda1': {
+        "conteudo": `Você pede ajuda às mulheres da sua casa, sua mãe entra em prantos, sem saber o que fazer, assim como
+        sua irmã Grete.`,
+        "botoes": [
+            ["continuarajuda2", "- Eu não sei o que fazer.. <br> Eu devo ir ao trabalho?"],
+            ["continuarajuda2", "- O que será que <br> está acontecendo comigo?"],
+        ]
+    },
+    'continuarajuda2': {
+        "conteudo": `Logo após sua fala, elas ficam olhando uma para a outra e para você. Então, sua mãe fala enquanto cai
+        algumas lágrimas do seu rosto.
+        <br> - Filho, `,
+        "botoes": [
+            ["", ""],
+        ]
+    },
+    '': {
+        "conteudo": ``,
         "botoes": [
             ["", ""],
         ]
