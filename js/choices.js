@@ -79,7 +79,7 @@ let choices_data = {
         tempo, você é surpreendido pelo barulho de sirene do carro de polícia. Antes que você pudesse fazer algo, você é 
         abordado por dois policiais armados e apontando suas armas na sua direção. <br> - Mãos na cabeça aberração!</p>
         <img style="height: auto; width: 256px;" src="../img/policial.png" alt="">
-        <img style="height: auto; width: 256px;" src="../img/policial_arma.png" alt="">`,
+        <img style="height: auto; width: 256px;" src="../img/policial.png" alt="">`,
         "botoes": [
             ["reagirpolicia1", "Tentar fugir"],
             ["serpreso1", "Ficar parado"]
@@ -89,6 +89,7 @@ let choices_data = {
         "conteudo": `Você fica parado e os policiais te prendem depois de te baterem. Você não entende bem o motivo. Você 
         é lavado a prisão e fica numa sala, sozinho, afastado de todos.</p>
         <h1>O jogo acabou, você foi preso.</h1>
+        <img style="height: auto; width: 256px;" src="../img/policial_gregorp.png" alt="">
         <img style="height: auto; width: 256px;" src="../img/gregorp_preso.gif" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
@@ -100,6 +101,7 @@ let choices_data = {
         "conteudo": `Você se mexe um pouco para o lado e se prepara para correr; mas antes que possa fazer qualquer 
         coisa <br> - Atira nessa aberração! <br> O policial atira em você, causando sua morte.</p>
         <h1>O jogo acabou, você morreu para um policial.</h1>
+        <img style="height: auto; width: 256px;" src="../img/policial_gregorp.png" alt="">
         <img style="height: auto; width: 256px;" src="../img/gregor_lapide.png" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
@@ -197,7 +199,8 @@ let choices_data = {
         "conteudo": `Você convive normalmente assim com sua família e aos poucos, você volta ao trabalho mesmo nessa forma
         desconfigurada. O jornal da sua cidade faz reportagens sobre você, e dias depois passa a ser compartilhado no mundo
         que isso é algo que está ocorrendo com pessoas específicas, havendo dezenas de casos. Contudo, não há informações
-        concretas sobre isso pela falta de conhecimento científico.</p>`, // GREGOR PRETO NO JORNAL
+        concretas sobre isso pela falta de conhecimento científico.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_jornal.png" alt="">`,
         "botoes": [
             ["familiaaceitar1", "Conviver com essa 'doença'"],
             ["estudar1", "Estudar para descobrir a cura dessa 'doença'"],
@@ -222,13 +225,13 @@ let choices_data = {
         essa metamorfose. Você começa a estudar medicina e matérias de ciência para tentar achar a cura dessa doença.
         Você não conseguiu, mas Gregor Samsa é o nome de um dos médicos que ajudou.</p>
         <h1>O jogo acabou, você foi aceitado pela família.</h1>
-        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt=""> 
+        <img style="height: auto; width: 256px;" src="../img/gregorp_medico.gif" alt=""> 
         <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
         <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">
         <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
-        <button onclick="window.location.href = '../index.html'">Menu</button>`, // GREGOR MÉDICO E FAMÍLIA
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
         "botoes": [
         ]
     },
@@ -244,7 +247,7 @@ let choices_data = {
         ]
     },
     'deixarquieto1': {
-        "conteudo": `Você fala com grosseiria com sua família, seus pais ficam estressados, e sua irmã preocupada.`, // SEM FOTO SE PÁ
+        "conteudo": `Você fala com grosseiria com sua família, seus pais ficam estressados, e sua irmã preocupada.`,
         "botoes": [
             ["continuar3", "Continuar"],
         ]
@@ -342,7 +345,8 @@ let choices_data = {
         "conteudo": `Apenas por escutar isso vindo da porta da sua casa, você tem certeza que é o seu chefe. Pelo susto 
         disso, suas pernas ficam trémulas, você já não tem mais nada para se segurar; pelo desequilíbrio, você cai no chão 
         e faz um barulho. O tapete do quarto amorteceu o som, mas a sua cabeça bate no chão, fazendo você sentir dores.
-        <br> - Algo caiu aí dentro. - Fala o chefe do trabalho enquanto anda para entrar na casa, em busca de você.</p>`,
+        <br> - Algo caiu aí dentro. - Fala o chefe do trabalho enquanto anda para entrar na casa, em busca de você.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">`,
         "botoes": [
             ["continuar5", "Continuar"],
         ]
@@ -352,7 +356,8 @@ let choices_data = {
         escritório." Você está ciente disso, paralisado está, sem saber o que fazer. Você olha ao redor do quarto, enquanto 
         isso, o seu pai vai até a porta e fala "Gregor, está aqui o chefe do escritório e quer saber porque não pegou o 
         primeiro trem. Além disso, ele quer falar contigo pessoalmente. Abre essa porta. Com certeza não vai reparar na
-        desarrumação do quarto."`,
+        desarrumação do quarto."</p>
+        <img style="height: auto; width: 256px;" src="../img/porta_irma_fora.png" alt="">`,
         "botoes": [
             ["fugirjanela1", "Fugir pela janela"],  
             ["fazernada1", "Continuar"],
@@ -362,7 +367,8 @@ let choices_data = {
         "conteudo": `- Bom dia, senhor Samsa.
         <br> Fala o seu chefe tentando falar com você. E logo em seguida sua mãe fala com ele. 
         <br> - Ele não está bem, senhor, pode acreditar. Se ele não estivesse mal, nunca perderia o trem! O rapaz não pensa 
-        em nada além do emprego. Quase me zango com a mania que ele tem de nunca sair à noite.`,
+        em nada além do emprego. Quase me zango com a mania que ele tem de nunca sair à noite.</p>
+        <img style="height: auto; width: 256px;" src="../img/mae.png" alt="">`,
         "botoes": [
             ["continuar6", "- Já vou"],
             ["continuar6", "Continuar"], 
@@ -374,7 +380,9 @@ let choices_data = {
         <br> - Não imagino qualquer outra explicação, senhora. Espero que não seja nada grave. Embora, deva dizer que nós, 
         homens de negócios, feliz ou infelizmente, temos muitas vezes de ignorar qualquer ligeira indisposição, visto que 
         é preciso olhar pelo negócio.
-        Após isso, seu pai questiona "O seu chefe pode entrar, Gregor?"`,
+        <br> Após isso, seu pai questiona "O seu chefe pode entrar, Gregor?"</p>
+        <img style="height: auto; width: 256px;" src="../img/portaquarto.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">`,
         "botoes": [
             ["abrirporta1", "Abrir a porta"],
             ["naoabrirporta1", "- Não vou abrir agora"],
@@ -382,7 +390,9 @@ let choices_data = {
         ]
     },
     'abrirporta1': {
-        "conteudo": `Você tenta criar coragem para fazer você abrir a porta, mas não consegue. É muita pressão sob você.`,
+        "conteudo": `Você tenta criar coragem para fazer você abrir a porta, mas não consegue. É muita pressão sob você.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/portaquarto.png" alt="">`,
         "botoes": [
             ["naoabrirporta1", "- Não vou abrir agora"],
             ["fugirjanela1", "Fugir pela janela"],
@@ -392,7 +402,8 @@ let choices_data = {
         "conteudo": `O chefe acabara por escutar você se recusando, então logo fala com uma voz alta. 
         <br> - Senhor Samsa, é bom você abrir essa porta, tenho muitos a conversar, seja sobre o seu trabalho, seja sobre 
         essa sua suposta doença, seja sobre o que você fala só com esses "sim" e "não" ou até mesmo sua falta de compromisso 
-        com as suas vendas; e também sobre o que você e sua família devem fazer!"`,
+        com as suas vendas; e também sobre o que você e sua família devem fazer!"</p>
+        <img style="height: auto; width: 256px;" src="../img/gregor.gif" alt="">`,
         "botoes": [
             ["continuar7", "Continuar"],
         ]
@@ -403,7 +414,8 @@ let choices_data = {
         eu estou melhorando já, deve ter sido algo que comi à noite; pois tive agora umas tonturas, mas já estou melhor.
         Dê-me só mais um ou dois minutos para eu conseguir me levantar. E sobre essas coisa que o senhor disse, eu devo falar
         sobre a encomenda que fiz, o senhor não deve ter sido notificado; e além disso, não é necessário falar sobre minha 
-        família. Não se preocupe senhor, eu estarei logo no escritório e então poderemos falar com mais calma.`,
+        família. Não se preocupe senhor, eu estarei logo no escritório e então poderemos falar com mais calma.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregor.gif" alt="">`,
         "botoes": [
             ["continuar8", "Continuar"],
         ]
@@ -417,7 +429,10 @@ let choices_data = {
         <br> - Isso não era uma voz humana... - Exclama o chefe
         <br> - Ana, vá atrás de um serralheiro! - Diz o pai para a mãe.
         <br> Passa-se um tempo, seus familiares devem estar na sala junto do chefe. Você está mais calmo, entendendo já 
-        toda a situação.`,
+        toda a situação.</p>
+        <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif.png" alt="">`,
         "botoes": [
             ["sairquarto1", "Sair do quarto"],
             ["continuardeitado1", "Continuar deitado"],
@@ -425,7 +440,8 @@ let choices_data = {
         ]
     },
     'continuardeitado1': {
-        "conteudo": `Você continua deitado, com fome, com sede mas com grande vontade de dormir. O que fazer?`,
+        "conteudo": `Você continua deitado, com fome, com sede mas com grande vontade de dormir. O que fazer?</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">`,
         "botoes": [
             ["sairquarto1", "Sair do quarto"],
             ["continuardeitado2", "Dormir na sua cama"],
@@ -433,7 +449,8 @@ let choices_data = {
         ]
     }, 
     'continuardeitado2': {
-        "conteudo": `Você fica deitado e acaba dormindo, mas antes de dormir, você fica chorando na sua cama.`,
+        "conteudo": `Você fica deitado e acaba dormindo, mas antes de dormir, você fica chorando na sua cama.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama_choro.png" alt="">`,
         "botoes": [
             ["morrer1", "Continuar"],
         ]
@@ -443,7 +460,8 @@ let choices_data = {
         <br> O seu chefe fala "Ouçam, Gregor está dando a volta na chave."
         <br> Aos poucos você abre a porta para si, abrindo mesmo só metade dela, você vê seus pais e seu chefe encarando
         a ti com uma péssima feição. Eles só conseguem ver metade de sua cabeça e uma parte do seu torso, mas eles veêm
-        sua figura: um homem humanoide completamente preto, conseguindo notar apenas a cor de seus olhos. `,
+        sua figura: um homem humanoide completamente preto, conseguindo notar apenas a cor de seus olhos.</p>
+        <img style="height: auto; width: 256px;" src="../img/porta_gregorp.png" alt="">`,
         "botoes": [
             ["continuar9", "Continuar"],
         ]
@@ -453,7 +471,9 @@ let choices_data = {
         tenta andar para frente mas cai de joelhos no chão. Ela começa a cair em lágrimas, sem nem falar uma palavra.
         <br> O seu pai cerrou os punhos com um ar cruel, como se quisesse obrigar Gregor a voltar para o quarto com um 
         murro; depois, olhou perplexo em torno da sala de estar, cobriu os olhos com as mãos e desatou a chorar, o peito 
-        vigoroso sacudido por soluços.`,
+        vigoroso sacudido por soluços.</p>
+        <img style="height: auto; width: 256px;" src="../img/mae_choro.gif" alt=""></p>
+        <img style="height: auto; width: 256px;" src="../img/pai_choro.gif" alt="">`,
         "botoes": [
             ["falarchefe1", "Falar com o chefe"],
             ["voltarquarto1", "Entrar de volta no quarto e fechar a porta"],
@@ -461,7 +481,8 @@ let choices_data = {
     },
     'voltarquarto1': {
         "conteudo": `Assim que você vê a reação dos seus pais, você rapidamente fecha a porta, vai para a sua cama e
-        começa a cair em lágrimas lá. Depois de um tempo, você acab dormindo.`,
+        começa a cair em lágrimas lá. Depois de um tempo, você acab dormindo.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama_choro.png" alt="">`,
         "botoes": [
             ["continuar10", "Continuar"],
         ]
@@ -471,7 +492,8 @@ let choices_data = {
         estava meio mal, mas agora já estou de pé e pronto para o meu trabalho de caixeiro viajante. Eu estou ciente que 
         somos perfeitamente profissionais e meu trabalho é muito bem visto pelas pesssoas da empresa, então, mesmo que 
         não esteja do meu melhor jeito, estou disposto a ir trabalhar! 
-        <br> - Você fala de forma bem calma, por mais que esteja aflito pelo o que houve com seus pais.`,
+        <br> - Você fala de forma bem calma, por mais que esteja aflito pelo o que houve com seus pais.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">`,
         "botoes": [
             ["reacaochefe1", "Continuar"],
         ]
@@ -482,7 +504,8 @@ let choices_data = {
         disse. 
         <br> Seria ótimo se sua irmã estivesse aqui, ela é esperta e provavelmente te ajudaria; e o chefe que é um grande 
         mulherengo, iria com certeza cair nas palavras dela. Mas ela não está. Além disso, se apenas deixar o chefe ir, 
-        seu trabalho na firma estaria em risco. O que fazer agora?`,
+        seu trabalho na firma estaria em risco. O que fazer agora?</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">`,
         "botoes": [
             ["chefeir1", "Deixar seu chefe ir embora"],
             ["falarchefe2", "Se aproximar do chefe"],
@@ -493,7 +516,10 @@ let choices_data = {
         Mas você vai até o chefe que até mesmo está se segurando num corrimão. Você quer ter o seu futuro, então deve ir 
         atrás para não perder o emprego. 
         <br> Quanto mais você se aproximava, mais todos ali perto sentiam pavor. Até que o chefe se vira para a porta 
-        para sair da casa e corre.`,
+        para sair da casa e corre.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/mae_choro.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai_choro.gif" alt="">`,
         "botoes": [
             ["falarchefe3", "Seguir ele para falar com ele"],
             ["chefeir1", "Deixar ele ir"],
