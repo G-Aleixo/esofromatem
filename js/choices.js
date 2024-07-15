@@ -142,14 +142,19 @@ let choices_data = {
     'continuar20': {
         "conteudo": `Com esse diálogo que você tem com sua mãe, as pessoas da família percebem que você está em casa. Você  
         abre a porta, então seu pai nem te estranha, mas quando você percebe sua irmã está junto de sua mãe. Assim que elas 
-        te veem, te estranham, te olham com choque.`, // BOTAR IMAGEM AQUI E ABAIXO
+        te veem, te estranham, te olham com choque.</p>
+        <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">`, 
         "botoes": [
             ["continuarajuda1", "- Por favor, me ajudem"],
         ]
     },
     'continuarajuda1': {
         "conteudo": `Você pede ajuda às mulheres da sua casa, sua mãe entra em prantos, sem saber o que fazer, assim como
-        sua irmã Grete.`,
+        sua irmã Grete.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">`,
         "botoes": [
             ["continuarajuda2", "- Eu não sei o que fazer.. <br> Eu devo ir ao trabalho?"],
             ["continuarajuda2", "- O que será que <br> está acontecendo comigo?"],
@@ -162,7 +167,8 @@ let choices_data = {
         Você precisa ir ao hospital! Grete, ligue para o trabalho de Gregor, fale que ele está com uma grave doença! Meu
         filho querido, eu vou te ajudar com qualquer coisa possível!
         <br> Sua irmã vai atrás do telefone para falar com seu chefe para justificar sua falta. E sua mãe, ao fim de sua
-        fala, ela te dá um grande e caloroso abraço.`,
+        fala, ela te dá um grande e caloroso abraço.</p>
+        <img style="height: auto; width: 256px;" src="../img/mae_choro.gif" alt="">`,
         "botoes": [
             ["aceitarajuda1", "Aceitar a ajuda da mãe"],
         ]
@@ -171,7 +177,10 @@ let choices_data = {
         "conteudo": `Sua mãe e sua irmã fazem de tudo para te ajudar, por mais que achem estranho tudo isso que você
         passa. Sua mãe tenta te dar remédios, enquanto sua irmã tenta marcar uma consulta no hospital para você.
         Já o seu pai, acha que isso é falta de orações na família de vocês. Um tempo se passa, sua família se torna mais
-        unida, e finalmente chega um dia que você vai ao médico.`,
+        unida, e finalmente chega um dia que você vai ao médico.</p>
+        <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">`,
         "botoes": [
             ["continuarajuda3", "Ir ao médico"],
         ]
@@ -179,7 +188,7 @@ let choices_data = {
     'continuarajuda3': {
         "conteudo": `Você vai ao médico e, pelo incrível que pareça, o médico não se assusta ao te ver, ele apenas fica
         com receio de ser uma doença altamente contagiosa. Ao conversar com o médico, ele afirma que você não é a
-        primeira pessoa que aparece assim no mundo, e que é aparentemente algo temporário.`,
+        primeira pessoa que aparece assim no mundo, e que é aparentemente algo temporário.</p>`, // FOTO MÉDICO
         "botoes": [
             ["continuar21", "Continuar"],
         ]
@@ -188,7 +197,7 @@ let choices_data = {
         "conteudo": `Você convive normalmente assim com sua família e aos poucos, você volta ao trabalho mesmo nessa forma
         desconfigurada. O jornal da sua cidade faz reportagens sobre você, e dias depois passa a ser compartilhado no mundo
         que isso é algo que está ocorrendo com pessoas específicas, havendo dezenas de casos. Contudo, não há informações
-        concretas sobre isso pela falta de conhecimento científico.`,
+        concretas sobre isso pela falta de conhecimento científico.</p>`, // GREGOR PRETO NO JORNAL
         "botoes": [
             ["familiaaceitar1", "Conviver com essa 'doença'"],
             ["estudar1", "Estudar para descobrir a cura dessa 'doença'"],
@@ -196,8 +205,12 @@ let choices_data = {
     },
     'familiaaceitar1': {
         "conteudo": `Por mais que não seja o melhor dos mundos, grande parte da sociedade aceita as pessoas que tiveram
-        essa metamorfose. Então você passou a viver tranquilamente com sua família, como se nada tivesse ocorrido.
+        essa metamorfose. Então você passou a viver tranquilamente com sua família, como se nada tivesse ocorrido.</p>
         <h1>O jogo acabou, você foi aceitado pela família.</h1>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
@@ -207,11 +220,15 @@ let choices_data = {
     'estudar1': {
         "conteudo": `Por mais que não seja o melhor dos mundos, grande parte da sociedade aceita as pessoas que tiveram
         essa metamorfose. Você começa a estudar medicina e matérias de ciência para tentar achar a cura dessa doença.
-        Você não conseguiu, mas Gregor Samsa é o nome de um dos médicos que ajudou.
+        Você não conseguiu, mas Gregor Samsa é o nome de um dos médicos que ajudou.</p>
         <h1>O jogo acabou, você foi aceitado pela família.</h1>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt=""> 
+        <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
-        <button onclick="window.location.href = '../index.html'">Menu</button>`,
+        <button onclick="window.location.href = '../index.html'">Menu</button>`, // GREGOR MÉDICO E FAMÍLIA
         "botoes": [
         ]
     },
@@ -219,21 +236,23 @@ let choices_data = {
         "conteudo": `Com isso, as pessoas da casa percebem que você ainda está em casa, então logo chega seu pai falando 
         com sua voz grossa e firme "Gregor,o que você tem?" 
         <br> Antes que possa responder sua irmã também fala com sua voz baixa e doce "Gregor? Não se sente bem? Precisa 
-        de alguma coisa?"`,
+        de alguma coisa?"</p>
+        <img style="height: auto; width: 256px;" src="../img/porta_familia.png" alt="">`,
         "botoes": [
             ["continuar3", "- Eu estou bem, quase pronto para sair."],
             ["deixarquieto1", "- Me deixem quieto!"],
         ]
     },
     'deixarquieto1': {
-        "conteudo": `Você fala com grosseiria com sua família, seus pais ficam estressados, e sua irmã preocupada.`,
+        "conteudo": `Você fala com grosseiria com sua família, seus pais ficam estressados, e sua irmã preocupada.`, // SEM FOTO SE PÁ
         "botoes": [
             ["continuar3", "Continuar"],
         ]
     },
     'continuar3': {
         "conteudo": `Seus pais saem, mas sua irmã continua na frente da porta. "Abra essa porta logo, Gregor." Fala ela
-        depois de tentar abrir a porta e não conseguindo (pois está trancada).`,
+        depois de tentar abrir a porta e não conseguindo (pois está trancada).</p>
+        <img style="height: auto; width: 256px;" src="../img/porta_irma_fora.png" alt="">`,
         "botoes": [
             ["pedirajuda2", "Falar com sua irmã sobre o seu problema"],
             ["irporta1", "Se levantar e ir até a porta"],
@@ -244,14 +263,18 @@ let choices_data = {
         "conteudo": `- Grete, aconteceu alguma coisa comigo, eu não sei explicar bem...
         <br> - Vixe, você tá doente por acaso? Quer que eu vá chamar um médico? Abra essa porta para eu verificar isso.
         <br> - Não é bem uma doença, eu acho; é algo que está acontecendo no meu corpo. Eu irei abrir a porta, mas por 
-        favor, não surte.`,
+        favor, não surte.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/porta_irma_fora.png" alt="">`,
         "botoes": [
             ["continuar22", "Abrir a porta"],
         ]
     },
     'continuar22': {
         "conteudo": `Com esse diálogo que você tem com sua irmã, você abre a porta. Assim que ela te vê, te estranha, te 
-        olha com choque. Você pede ajuda à sua irmã, ela, sem saber o que fazer, fica com os olhos trémulos.`,
+        olha com choque. Você pede ajuda à sua irmã, ela, sem saber o que fazer, fica com os olhos trémulos.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">`,
         "botoes": [
             ["continuarajuda4", "- Eu não sei o que fazer.. <br> Eu devo ir ao trabalho?"], 
             ["continuarajuda4", "- O que será que <br> está acontecendo comigo?"], 
@@ -264,7 +287,7 @@ let choices_data = {
         Você precisa ir ao hospital! E também precisamos ligar para o seu trabalho para justificar sua falta... Gregor, 
         eu vou te ajudar com qualquer coisa possível!
         <br> Sua irmã vai atrás do telefone para falar com seu chefe para justificar sua falta. E logo depois, ela volta
-        para te dar um grande abraço caloroso.`,
+        para te dar um grande abraço caloroso.`, // IRMÃ CHORANDO
         "botoes": [
             ["aceitarajuda2", "Aceitar a ajuda da mãe"],
         ]
@@ -273,7 +296,10 @@ let choices_data = {
         "conteudo": `Sua irmã fala seu problema para sua família, por mais que achem estranho tudo isso que você passa te 
         ajudam com o que for possível. Sua mãe tenta te dar remédios, enquanto sua irmã tenta marcar uma consulta no 
         hospital para você. Já o seu pai, acha que isso é falta de orações na família de vocês. Um tempo se passa, sua 
-        família se torna mais unida, e finalmente chega um dia que você vai ao médico.`,
+        família se torna mais unida, e finalmente chega um dia que você vai ao médico.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">`,
         "botoes": [
             ["continuarajuda3", "Ir ao médico"],
         ]
@@ -284,7 +310,8 @@ let choices_data = {
         consegue. Quando vai em direção a porta, sua irmã jã não está lá do outro lado. Invés disso você escuta o barulho 
         da campanhia da sua casa tocando. Ninguém vai para a sua casa nesse horário, então você sabe que é alguém do seu 
         trabalho. A criada da sua casa vai abrir a porta.
-        <br> - Bom dia.`,
+        <br> - Bom dia.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">`,
         "botoes": [
             ["continuar4", "Continuar"],
         ]
@@ -294,17 +321,19 @@ let choices_data = {
         ainda seja você; não se sente um humanoide. Tens dificuldade até de se mexer. Você percebe que sua irmã não está 
         mais do outro lado da porta; mas logo você escuta o barulho da campanhia da sua casa tocando. Ninguém vai para a 
         sua casa nesse horário, então você sabe que é alguém do seu trabalho. A criada da sua casa vai abrir a porta.
-        <br> - Bom dia.`,
+        <br> - Bom dia.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">`,
         "botoes": [
-            ["continuar4.2", "Continuar"],
+            ["continuar26", "Continuar"],
         ]
     },
-    'continuar4.2': {
+    'continuar26': {
         "conteudo": `Apenas por escutar isso vindo da porta da sua casa, você tem certeza que é o seu chefe. Você leva um
         susto, não esperava que isso ocorresse. Podia ser qualquer outra pessoa do trabalho; mas logo o chefe foi atrás de
         você.
         <br> - Onde está o senhor Samsa?
-        <br> Fala o seu chefe enquanto é guiado pela criada e sua mãe`,
+        <br> Fala o seu chefe enquanto é guiado pela criada e sua mãe</p>
+        <img style="height: auto; width: 256px;" src="../img/gregor.gif" alt="">`,
         "botoes": [
             ["continuar5", "Continuar"],
         ]
@@ -313,7 +342,7 @@ let choices_data = {
         "conteudo": `Apenas por escutar isso vindo da porta da sua casa, você tem certeza que é o seu chefe. Pelo susto 
         disso, suas pernas ficam trémulas, você já não tem mais nada para se segurar; pelo desequilíbrio, você cai no chão 
         e faz um barulho. O tapete do quarto amorteceu o som, mas a sua cabeça bate no chão, fazendo você sentir dores.
-        <br> - Algo caiu aí dentro. - Fala o chefe do trabalho enquanto anda para entrar na casa, em busca de você.`,
+        <br> - Algo caiu aí dentro. - Fala o chefe do trabalho enquanto anda para entrar na casa, em busca de você.</p>`,
         "botoes": [
             ["continuar5", "Continuar"],
         ]
