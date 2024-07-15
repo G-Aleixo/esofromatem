@@ -297,9 +297,9 @@ let choices_data = {
         ajudam com o que for possível. Sua mãe tenta te dar remédios, enquanto sua irmã tenta marcar uma consulta no 
         hospital para você. Já o seu pai, acha que isso é falta de orações na família de vocês. Um tempo se passa, sua 
         família se torna mais unida, e finalmente chega um dia que você vai ao médico.</p>
-        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">
-        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">
-        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">`,
+        <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">`,
         "botoes": [
             ["continuarajuda3", "Ir ao médico"],
         ]
