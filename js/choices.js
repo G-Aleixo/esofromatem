@@ -190,7 +190,8 @@ let choices_data = {
     'continuarajuda3': {
         "conteudo": `Você vai ao médico e, pelo incrível que pareça, o médico não se assusta ao te ver, ele apenas fica
         com receio de ser uma doença altamente contagiosa. Ao conversar com o médico, ele afirma que você não é a
-        primeira pessoa que aparece assim no mundo, e que é aparentemente algo temporário.</p>`, // FOTO MÉDICO
+        primeira pessoa que aparece assim no mundo, e que é aparentemente algo temporário.</p>
+        <img style="height: auto; width: 256px;" src="../img/medico.gif" alt="">`,
         "botoes": [
             ["continuar21", "Continuar"],
         ]
@@ -290,7 +291,8 @@ let choices_data = {
         Você precisa ir ao hospital! E também precisamos ligar para o seu trabalho para justificar sua falta... Gregor, 
         eu vou te ajudar com qualquer coisa possível!
         <br> Sua irmã vai atrás do telefone para falar com seu chefe para justificar sua falta. E logo depois, ela volta
-        para te dar um grande abraço caloroso.`, // IRMÃ CHORANDO
+        para te dar um grande abraço caloroso.</p>
+        <img style="height: auto; width: 256px;" src="../img/irma_choro.gif" alt="">`, // IRMÃ CHORANDO
         "botoes": [
             ["aceitarajuda2", "Aceitar a ajuda da mãe"],
         ]
@@ -528,7 +530,9 @@ let choices_data = {
     'falarchefe3': {
         "conteudo": `Você vê o chefe saindo da sua casa e antes que pudesse fazer qualquer coisa, sua mãe começa a 
         gritar "Socorro, por amor de Deus, socorro!". Enquanto isso seu pai pega a sua bengala e fica balançando a 
-        bengala para perto de você. "Gregor, para o quarto, já!".`,
+        bengala para perto de você. "Gregor, para o quarto, já!".</p>
+        <img style="height: auto; width: 256px;" src="../img/mae_choro.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">`,
         "botoes": [
             ["ficarparado1", "Ficar parado"], 
             ["irquarto1", "Ir ao seu quarto"],
@@ -537,7 +541,9 @@ let choices_data = {
     'chefeir1': {
         "conteudo": `Você vê o chefe saindo da sua casa, sua mãe começa a gritar "Socorro, por amor de Deus, socorro!". 
         Enquanto isso seu pai pega a sua bengala e fica balançando a bengala para perto de você. "Gregor, para o quarto, 
-        já!".`,
+        já!".</p>
+        <img style="height: auto; width: 256px;" src="../img/mae_choro.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">`,
         "botoes": [
             ["ficarparado1", "Ficar parado"], 
             ["irquarto1", "Ir ao seu quarto"],
@@ -546,7 +552,9 @@ let choices_data = {
     'ficarparado1': {
         "conteudo": `Seu pai andando aos poucos chega próximo de você e acaba até mesmo te batendo com a bengala e te 
         empurrando para próximo do seu quarto. "Gregor, vai!" ele grita. Enquanto você não vai, a bengala dele te 
-        machuca bastante, com ela tendo manchas de sangue de seus machucados.`,
+        machuca bastante, com ela tendo manchas de sangue de seus machucados.</p>
+        <img style="height: auto; width: 256px;" src="../img/bengala_sangue.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregorp_machucado.gif" alt="">`,
         "botoes": [
             ["irquarto1", "Ir ao quarto"],
         ]
@@ -554,7 +562,9 @@ let choices_data = {
     'irquarto1': {
         "conteudo": `Você entra no seu quarto enquanto seu pai te acompanha e assim que coloca um pé no quarto, seu pai 
         te empurra e fecha a porta de forma brusca. Você acaba se sentindo cansado por toda essa confusão, mas ao mesmo 
-        tempo, preocupação e medo. No chão, acaba dormindo e chorando.`,
+        tempo, preocupação e medo. No chão, acaba dormindo e chorando.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_machucado.gif" alt=""></p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama_choro.png" alt="">`,
         "botoes": [
             ["continuar10", "Ir para a cama e dormir lá"],
             ["continuar10", "Dormir no chão"],
@@ -563,7 +573,9 @@ let choices_data = {
     'continuar10': {
         "conteudo": `Passa-se um tempo, você não sabe quanto, mas quando acorda, está escuro, mesmo com a janela aberta. 
         Então você se levanta. Depois de passar muito tempo sem comer, você escuta roncos vindo de si mesmo; logo você 
-        vê uma tigela de sopa no chão provavelmente quem colocou lá foi sua irmã.`,
+        vê uma tigela de sopa no chão provavelmente quem colocou lá foi sua irmã.</p>
+        <img style="height: auto; width: 256px;" src="../img/porta_irma_dentro.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/sopa.png" alt="">`,
         "botoes": [
             ["tomarsopa1", "Tomar a sopa"],
             ["naocomer1", "Não tomar a sopa"],
@@ -572,7 +584,8 @@ let choices_data = {
     'tomarsopa1': {
         "conteudo": `Você pega a tigela e tenta tomar, mas assim que toma se quer um pouco, cospe no chão o que estava na 
         sua boca. O gosto está horrível, não se sabe o porquê. Desanimado, você vai até sua cama e se deita; lá fica por 
-        um tempão, sem conseguir dormir.`,
+        um tempão, sem conseguir dormir.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">`,
         "botoes": [
             ["continuar11", "Tentar dormir"],
         ]
@@ -580,7 +593,9 @@ let choices_data = {
     'continuar11': {
         "conteudo": `Pelo horário, muito provavelmente todos da sua casa já devem estar dormindo; mas então você escuta 
         passos próximo ao seu quarto e logo em seguida uma pessoa abre a porta. Sua irmã trás para você comida numa folha 
-        de jornal e sem falar nada deixa no chão e logo sai do quarto.`,
+        de jornal e sem falar nada deixa no chão e logo sai do quarto.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/porta_irma_dentro.png" alt="">`,
         "botoes": [
             ["comercomida1", "Comer a comida"],
             ["naocomer1", "Não comer a comida"],
@@ -589,7 +604,8 @@ let choices_data = {
     'naocomer1': {
         "conteudo": `Você decide não comer nada. Sua fome aumenta, assim como a sede. Você começa a ter muitos pensamentos
         paralelos, e no fim, não conseguir pensar no que fazer. Em pé, você fica girando em círculos, indo até a janela e
-        pensando em fugir; em deixar sua família para não terem mais problemas.`,
+        pensando em fugir; em deixar sua família para não terem mais problemas.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">`,
         "botoes": [
             ["fugirjanela1", "Fugir pela janela"],
             ["deitarcama1", "Deitar na cama"],
@@ -599,13 +615,15 @@ let choices_data = {
         "conteudo": `Você deita na sua cama. Seus pensamentos param, você fica fazendo nada por horas até ficar com sono.
         Você fecha o olho lentamente; sua visão fica preta e você vai perdendo a consciência aos poucos. Chega num momento,
         que seu corpo fala mais alto, seus intestinos não tem de onde tirar energia. Você acaba morrendo de 
-        fome e desidratação.`,
+        fome e desidratação.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">`,
         "botoes": [
             ["morrer1", "Continuar"],
         ]
     },
     'morrer1': {
         "conteudo": `<h1>O jogo acabou, você morreu por não comer ou beber algo.</h1>
+        <img style="height: auto; width: 256px;" src="../img/gregor_lapide.png" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
@@ -615,7 +633,9 @@ let choices_data = {
     'comercomida1': {
         "conteudo": `Você se levanta e vê que sua irmã trouxe restos de comida e alguns peticos para você. Você come uma 
         parte dessa comida, não conseguindo comer a comida toda pelo horrível gosto que ela tem. 
-        <br> - Por que a comida está tão ruim mesmo estando como de costume?`,
+        <br> - Por que a comida está tão ruim mesmo estando como de costume?</p>
+        <img style="height: auto; width: 256px;" src="../img/porta_irma_dentro.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">`,
         "botoes": [
             ["continuar12", "Continuar"],
         ]
@@ -626,7 +646,8 @@ let choices_data = {
         conversas que as pessoas da sua casa têm sobre você, com elas se perguntando "O que fazer?", "Como fazer?" e "E o 
         dinheiro?". A economia da família era o que mais preocupava a todos, pois além de uma dívida a pagar, há uma 
         família para sustentar. 
-        <br> Mesmo no quarto, você consegue escutar as pessoas falando mal de você.`,
+        <br> Mesmo no quarto, você consegue escutar as pessoas falando mal de você.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_choro.gif" alt="">`,
         "botoes": [
             ["continuar13", "Continuar"],
         ]
@@ -634,7 +655,8 @@ let choices_data = {
     'continuar13': {
         "conteudo": `Um mês de sofrência se passa. Você tem fome, medo, preocupação, ansiedade, tristeza etc; sabe-se que 
         você tem sido um peso para sua família, não conseguindo ajudar em nada, pelo contrário, só atrapalhando. As pessoas 
-        da sua família já nem falam com você direito, até mesmo sua irmã está passando cada vez menos tempo com você.`,
+        da sua família já nem falam com você direito, até mesmo sua irmã está passando cada vez menos tempo com você.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">`,
         "botoes": [
             ["suicidio1", "Desistir de tudo"],
             ["continuar14", "Ficar deitado sem fazer nada"],
@@ -642,14 +664,16 @@ let choices_data = {
     },
     'suicidio1': {
         "conteudo": `Você está atrapalhando toda sua família, então você finalmente decide ajudar eles com alguma coisa. 
-        Você pretende se matar, então se levanta da cama e sem hesitar, sai do quarto.`,
+        Você pretende se matar, então se levanta da cama e sem hesitar, sai do quarto.</p>
+        <img style="height: auto; width: 256px;" src="../img/porta_gregorp.png" alt="">`,
         "botoes": [
             ["suicidio2", "Ir para a cozinha"],
             ["suicidio3", "Ir para o terraço do prédio onde mora"],
         ]
     },
     'suicidio2': {
-        "conteudo": `Você vai até sua cozinha e ninguém está nela, pelo horário, todos devem estar dormindo.`,
+        "conteudo": `Você vai até sua cozinha e ninguém está nela, pelo horário, todos devem estar dormindo.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">`,
         "botoes": [
             ["pegarfaca1", "Procurar alguma lâmina"],
             ["produtoquimico1", "Procurar algum produto químico"],
@@ -659,7 +683,8 @@ let choices_data = {
         "conteudo": `Você procura e acha uma faca de cortar carne muito afiada. Você sabe que isso vai ser doloroso, mas
         vai ajudar sua família. Você deixa a ponta da faca apontada para o seu pescoço. Mas antes de fazer algo, sua irmã
         aparece chorando.
-        <br> - Gregor, não faça isso!`,
+        <br> - Gregor, não faça isso!</p>
+        <img style="height: auto; width: 256px;" src="../img/faca.png" alt="">`, // FOTO FACA
         "botoes": [
             ["irterraco2", "Ir correndo ao terraço"],
             ["pedirajuda3", "Não se matar e pedir ajuda à sua irmã"],
@@ -668,17 +693,20 @@ let choices_data = {
     },
     'matarfaca1': {
         "conteudo": `Mesmo com sua irmã na sua frente, você não hesita e se mata. Você ajudou sua família, mesmo que não
-        seja da melhor maneira.
+        seja da melhor maneira.</p>
         <h1>O jogo acabou, você se matou com uma faca.</h1>
+        <img style="height: auto; width: 256px;" src="../img/faca.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregor_lapide.png" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
-        <button onclick="window.location.href = '../index.html'">Menu</button>`,
+        <button onclick="window.location.href = '../index.html'">Menu</button>`, // FACA FOTO
         "botoes": [
         ]
     },
     'irterraco2': {
         "conteudo": `Você vai correndo ao terraço do prédio, chega lá primeiro que sua irmã. Então consegue se matar sem
-        que ela precise ver. Na beira do prédio, percebe que o lugar é realmente alto; ali, você toma sua decisão final.`,
+        que ela precise ver. Na beira do prédio, percebe que o lugar é realmente alto; ali, você toma sua decisão final.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_predio.png" alt="">`,
         "botoes": [
             ["pularterraco1", "Pular do terraço"],
             ["pedirajuda3", "Não se matar e pedir ajuda a sua irmã"],
@@ -689,14 +717,15 @@ let choices_data = {
         começa a chorar no meio da queda. 
         <br> - Família... eu amo vocês.`,
         "botoes": [
-            ["morrerterraco1", "Continuar"],
+            ["morrerterraco1", "Continuar"], // GREGOR CHORANDO DE CABEÇA PARA BAIXO 
         ]
     },
     'produtoquimico1': {
         "conteudo": `Você procura e acha no armário água sanitária, que se você tomar, vai morrer provavelmente sem dores.
         Você sabe que vai morrer, mas vai morrer ajudando sua família. Você coloca o líquido num copo, e está prestes a 
         tomar. Mas antes de fazer algo, sua irmã aparece chorando.
-        <br> - Gregor, não faça isso!`,
+        <br> - Gregor, não faça isso!</p>
+        <img style="height: auto; width: 256px;" src="../img/agua.png" alt="">`, // ÁGUA SANITÁRIA
         "botoes": [
             ["irterraco2", "Ir correndo ao terraço"],
             ["pedirajuda3", "Pedir ajuda à sua irmã"],
@@ -705,8 +734,9 @@ let choices_data = {
     },
     'matarprodutoquimico1': {
         "conteudo": `Mesmo com sua irmã na sua frente, você não hesita e toma o produto químico. Você ajudou sua família, 
-        mesmo que não seja da melhor maneira.
+        mesmo que não seja da melhor maneira.</p>
         <h1>O jogo acabou, você se matou tomando água sanitária.</h1>
+        <img style="height: auto; width: 256px;" src="../img/gregor_lapide.png" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
@@ -715,21 +745,25 @@ let choices_data = {
     },
     'suicidio3': {
         "conteudo": `Do seu quarto você vai direto para o topo do prédio de onde você mora; anda até a beira do prédio e 
-        lá fica olhando. Na beira do prédio, percebe que o lugar é realmente alto; ali você deve tomar sua decisão.`,
+        lá fica olhando. Na beira do prédio, percebe que o lugar é realmente alto; ali você deve tomar sua decisão.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_predio.png" alt="">`,
         "botoes": [
             ["irterraco1", "Se jogar do topo do prédio"],
             ["voltarquarto2", "Desistir dessa ideia e voltar ao seu quarto"],
         ]
     },
     'voltarquarto2': {
-        "conteudo": `Você desiste dessa ideia e vai até o seu quarto. E então fica deitado na cama enquanto chora.`,
+        "conteudo": `Você desiste dessa ideia e vai até o seu quarto. E então fica deitado na cama enquanto chora.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama_choro.png" alt="">`,
         "botoes": [
             ["continuar14", "Tentar dormir"],
         ]
     },
     'irterraco1': {
         "conteudo": `Você toma uma decisão. Mas antes de fazer algo, sua irmã aparece chorando.
-        <br> - Gregor, não faça isso!`,
+        <br> - Gregor, não faça isso!</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_predio.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma_choro.gif" alt="">`, // IRMÃ CHORANDO
         "botoes": [
             ["pularterraco2", "Se jogar do terraço na frente da <br> sua irmã para ajudar a família"],
             ["pedirajuda3", "Não se matar e pedir ajuda a sua irmã"],
@@ -737,7 +771,9 @@ let choices_data = {
     },
     'pedirajuda3': {
         "conteudo": `Você muda de ideia, vai até sua irmã e dá um abraço nela. Ambos choram como bebês um no braço do
-        outro. Sua irmã te leva ao seu quarto e ela vai até o dela.`,
+        outro. Sua irmã te leva ao seu quarto e ela vai até o dela.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_choro.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma_choro.gif" alt="">`, // IRMÃ CHORANDO
         "botoes": [
             ["continuar14", "Tentar dormir"],
         ]
@@ -746,13 +782,15 @@ let choices_data = {
         "conteudo": `- Irmã, eu te amo. Obrigado.
         <br> - Gregor! Não! - Grita sua irmã, caindo em lágrimas.
         <br> Você pula, e tudo começa a ficar em câmera lenta, você percebe que você não tem mais salvação e 
-        começa a chorar no meio da queda.`,
+        começa a chorar no meio da queda.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_choro.gif" alt="">`, // GREGOR CHORANDO DE CABEÇA PARA BAIXO
         "botoes": [
             ["morrerterraco1", "Continuar"],
         ]
     },
     'morrerterraco1': {
         "conteudo": `<h1>O jogo acabou, você se matou pulando do terraço.</h1>
+        <img style="height: auto; width: 256px;" src="../img/sangue_rua.png" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
@@ -762,7 +800,10 @@ let choices_data = {
     'continuar14': {
         "conteudo": `Você espera que algo aconteça, e mais dias se passam com a mesma rotina. Até que um dia, sua irmã vai 
         ao seu quarto junto de sua mãe, você está cansado, mas fica feliz por ver sua mãe novamente. Elas duas ficam 
-        tentando levantar uma cômoda que tem no seu quarto; mas elas não conseguem pelo móvel ser muito pesado.`,
+        tentando levantar uma cômoda que tem no seu quarto; mas elas não conseguem pelo móvel ser muito pesado.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">`,
         "botoes": [
             ["falarmaeirma1", "Falar com elas"],
             ["continuar15", "Apenas observar elas"],
@@ -771,7 +812,8 @@ let choices_data = {
     'falarmaeirma1': {
         "conteudo": `- Eu... eu amo vocês.
         <br> Você fala isso e se arrepende muito. Ambas te olham com desprezo, até parece que nem se importam com você.
-        Você até para de olhar para elas depois disso, então fica só chorando na cama.`,
+        Você até para de olhar para elas depois disso, então fica só chorando na cama.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama_choro.png" alt="">`,
         "botoes": [
             ["continuar15", "Continuar"],
         ]
@@ -779,14 +821,17 @@ let choices_data = {
     'continuar15': {
         "conteudo": `Depois de muito tempo, elas param de tentar tirar a cômoda e tiram outros móveis exceto a cama em que 
         você está deitado. Em todo esse período, você percebe sua mãe extremamente incomodada ao ficar no seu quarto. 
-        Depois de tirar os móveis, elas duas ficam na sala discutindo o que fazer com os móveis.`,
+        Depois de tirar os móveis, elas duas ficam na sala discutindo o que fazer com os móveis.</p>
+        <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">`,
         "botoes": [
             ["ficarquarto1", "Continuar deitado"],
             ["irsala1", "Ir à sala falar com sua família"],
         ]
     },
     'ficarquarto1': {
-        "conteudo": `Você fica no seu quarto, só olhando para o teto com uma grande tristeza.`,
+        "conteudo": `Você fica no seu quarto, só olhando para o teto com uma grande tristeza.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">`,
         "botoes": [
             ["continuar18", "Continuar"],
             ["fugirjanela1", "Fugir pela janela da sua casa"],
@@ -796,7 +841,9 @@ let choices_data = {
         "conteudo": `Você sai do quarto tentando ver o que falam e se esconde ao lado de uma porta. Sua irmã percebe que 
         você está ali e fica fingindo que não lhe viu. Mas logo, sua mãe percebe e ela acaba soltando um berro de susto. 
         Isso chama a atenção do seu pai, que vai até a sala e depois de lhe ver, com uma cara fechada, ele anda lentamente 
-        até você.`,
+        até você.</p>
+        <img style="height: auto; width: 256px;" src="../img/porta_gregorp.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">`,
         "botoes": [
             ["continuar16", "Continuar"],
         ]
@@ -804,7 +851,8 @@ let choices_data = {
     'continuar16': {
         "conteudo": `Esse é mesmo o seu pai? Ele está diferente; constantemente bravo desde sua transformação, enquanto 
         antes ele pouco se importava com a família. Vivia deitado ou sentado, raramente andando com a família. Agora, ele 
-        está na sua frente, com uma cara que demonstra frustração.`,
+        está na sua frente, com uma cara que demonstra frustração.</p>
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">`,
         "botoes": [
             ["enfurecer1", "Você está bravo pelas constantes <br> frustações do seu pai. Por isso, ataca-o"],
             ["encarar1", "Ficar só olhando para seu pai"],
@@ -813,7 +861,9 @@ let choices_data = {
     'encarar1': {
         "conteudo": `O seu pai está claramente bravo, ele, sem hesitar, te dá um soco no rosto, lhe derrubando de
         imediato. Com você no chão, o seu pai tira maçãs do bolso e começa a arremessar elas contra você. E então,
-        novamente você está bem machucado por causa do seu pai.`,
+        novamente você está bem machucado por causa do seu pai.</p>
+        <img style="height: auto; width: 256px;" src="../img/maca.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregorp_machucado.gif" alt="">`,
         "botoes": [
             ["continuar17", "Continuar"],
         ]
@@ -821,7 +871,9 @@ let choices_data = {
     'enfurecer1': {
         "conteudo": `O seu pai está claramente bravo, ele, sem hesitar e até mesmo antes que você fizesse algo, te dá um 
         soco no rosto, lhe derrubando de imediato. Com você no chão, o seu pai tira maçãs do bolso e começa a arremessar 
-        elas em você enquanto lhe espancava muito. E então, novamente você está bem machucado por causa do seu pai.`,
+        elas em você enquanto lhe espancava muito. E então, novamente você está bem machucado por causa do seu pai.</p>
+        <img style="height: auto; width: 256px;" src="../img/maca.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregorp_machucado.gif" alt="">`,
         "botoes": [
             ["continuar17", "Continuar"],
         ]
@@ -832,21 +884,26 @@ let choices_data = {
         <br> A vida da família Samsa mudou completamente e virou de cabeça para baixo em míseros meses. A irmã agora
         é caixeira enquanto estuda; a mãe teve seu trabalho doméstico multiplicado por causa da demissão da criada
         e as despesas tiveram que ser diminuidas. 
-        <br> Depois disso, seria importante ir dormir.`,
+        <br> Depois disso, seria importante ir dormir.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_machucado.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama.png" alt="">`,
         "botoes": [
             ["continuar18", "Dormir"],
         ]
     },
     'continuar18': {
         "conteudo": `Você acaba dormindo... mas não por muito tempo. Você é surpreendido por um alto barulho vindo da
-        sala de estar e fica escutando murmuros da sua irmã e seu pai.`,
+        sala de estar e fica escutando murmuros da sua irmã e seu pai.</p>
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">`,
         "botoes": [
             ["ignorar1", "Ignorar o que falam"],
             ["irescutar1", "Se levantar e escutar a conversa pela porta"],
         ]
     },
     'ignorar1': {
-        "conteudo": `<p style="font-size: xx-large;">Você não consegue ignorar por estar muito curioso.</p>`,
+        "conteudo": `<p style="font-size: xx-large;">Você não consegue ignorar por estar muito curioso.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt=""></p>`,
         "botoes": [
             ["irescutar1", "Se levantar e escutar a conversa pela porta"],
         ]
@@ -857,7 +914,10 @@ let choices_data = {
         continuar cuidando dele não é mais algo humano! Se ele ainda fosse o meu irmão, ele saberia que seria muito melhor
         para nós se ele se fosse.
         <br> Grete diz isso em voz alta para o pai enquanto ele concorda.
-        <br> - Temos que nos ver livres dele. - Diz sua irmã.`,
+        <br> - Temos que nos ver livres dele. - Diz sua irmã.</p>
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/pai.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/porta_gregorp.png" alt="">`,
         "botoes": [
             ["falarfamilia1", "Sair do quarto <br> e falar com eles"],
             ["fugirjanela1", "Fugir pela janela"],
@@ -869,7 +929,9 @@ let choices_data = {
         "conteudo": `Você sai do quarto, então de imediato eles param de conversar.
         <br> - Vocês querem fazer o que? - Você fala enquanto chora.
         <br>Sua irmã se vira na sua direção e, com uma cara frustrada, ela entra no seu quarto, faz algo que você não
-        consegue prestar atenção e logo sai do quarto.`,
+        consegue prestar atenção e logo sai do quarto.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_choro.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">`,
         "botoes": [
             ["continuar19", "Ficar parado"],
             ["implorarajuda1", "Pedir ajuda à sua irmã"],
@@ -877,7 +939,8 @@ let choices_data = {
     },
     'suicidio4': {
         "conteudo": `Você decide então pôs fim a sua vida para ajudar a família. Você fica inquieto no quarto, sem saber
-        se essa é a única opção. Você espera até todos estarem dormindo, então você decide o que vai realmente fazer.`,
+        se essa é a única opção. Você espera até todos estarem dormindo, então você decide o que vai realmente fazer.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">`,
         "botoes": [
             ["suicidio2", "Ir para a cozinha"],
             ["suicidio3", "Ir para o terraço do prédio onde mora"],
@@ -888,7 +951,9 @@ let choices_data = {
         frente do pai, que está sentado em uma poltrona. Você tenta ser silencioso, mas os dois que falavam param de
         falar ao ouvir rangidos da porta que você abriu.
         <br> Sua irmã se vira na sua direção e, com uma cara frustrada, ela entra no seu quarto, faz algo que você não
-        consegue prestar atenção e logo sai do quarto.`,
+        consegue prestar atenção e logo sai do quarto.</p>
+        <img style="height: auto; width: 256px;" src="../img/porta_gregorp.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">`,
         "botoes": [
             ["continuar19", "Ficar parado"],
             ["implorarajuda1", "Pedir ajuda à sua irmã"],
@@ -897,7 +962,8 @@ let choices_data = {
     'continuar19': {
         "conteudo": `Você não faz nada, não consegue nem mesmo falar algo. Assim que Grete sai do quarto, ela fica na sua
         frente te encarando e te dá um empurrão.
-        <br> Você cai no chão e ela rapidamente fecha a porta com força e tranca-a. Você está preso no seu quarto.`,
+        <br> Você cai no chão e ela rapidamente fecha a porta com força e tranca-a. Você está preso no seu quarto.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_choro.gif" alt="">`,
         "botoes": [
             ["aceitar1", "Aceitar que sua família não lhe quer mais."],
             ["fugirjanela2", "Tentar fugir de sua casa pela janela do seu quarto"], 
@@ -907,20 +973,25 @@ let choices_data = {
         "conteudo": `Você tenta abrir a porta do seu quarto, ela está realmente fechada. Então logo vai até a janela.
         Quando você da conta, a janela está trancada com uma chave.
         <br> - Até que fim! Não vou mais ver essa aberração. - Fala Grete para o pai
-        <br> Você começa a cair em lágrimas, pensando que só tem mais uma escolha.`,
+        <br> Você começa a cair em lágrimas, pensando que só tem mais uma escolha.</p>
+        <img style="height: auto; width: 256px;" src="../img/janela.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregorp_choro.gif" alt="">`,
         "botoes": [
             ["aceitar1", "Aceitar que sua família não lhe quer mais."],
         ]
     },
     'aceitar1': {
         "conteudo": `Você se deita na sua cama enquanto cai em choro. Seus pais junto de sua irmã começam a falar de
-        planos futuros que, claramente, você não está incluido.`,
+        planos futuros que, claramente, você não está incluido.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama_choro.png" alt="">`,
         "botoes": [
             ["serabandonado1", "Aceitar a decisão da sua irmã"],
         ]
     },
     'serabandonado1': {
         "conteudo": `<h1>O jogo acabou, você foi abandonado pela família e morto depois de um tempo.</h1>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_cama_choro.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregor_lapide.png" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
@@ -930,7 +1001,8 @@ let choices_data = {
     'implorarajuda1': {
         "conteudo": `- Grete, minha irmã; por favor, me ajude!
         <br> - Cala a merda da boca, aberração. Você é a causa da desgraça na nossa família!
-        <br> Sua irmã fala isso na sua frente, você fica em choque, sem nem saber como reagir.`,
+        <br> Sua irmã fala isso na sua frente, você fica em choque, sem nem saber como reagir.</p>
+        <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">`,
         "botoes": [
             ["continuar19", "Continuar"],
         ]
@@ -938,7 +1010,9 @@ let choices_data = {
         'fugirjanela1': {
         "conteudo": `Você vai até a janela, fica olhando para a rua, então você se decide. Você vai fugir de casa.
         <br> Assim ocorre. De forma silenciosa e sorrateira, você abre a janela e passa por ela. Você anda pela rua, sem
-        saber o seu rumo.`,
+        saber o seu rumo.</p>
+        <img style="height: auto; width: 256px;" src="../img/janela.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregorp_rua.png" alt="">`,
         "botoes": [
             ["continuar23", "Ficar andando na rua para <br> longe de casa e do trabalho"],
         ]
@@ -946,7 +1020,8 @@ let choices_data = {
     'continuar23': {
         "conteudo": `Você fica andando para distante de tudo que conhece, para não ser achado. Você está com fome e sede;
         e o problema é que agora a chance de você perder seu emprego é de 100%. Você não sabe o que fazer; então para e
-        olha ao redor da rua.`,
+        olha ao redor da rua.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_rua.png" alt="">`,
         "botoes": [
             ["roubar2", "Ir para um carro estacionado e roubá-lo"],
             ["roubar1", "Ir numa loja de comida e roubar para comer"], 
@@ -955,7 +1030,8 @@ let choices_data = {
     },
     'roubar2': {
         "conteudo": `Na rua, você vê um carro sem nada dentro, você se aproxima dele e percebe que consegue entrar nele 
-        pelas janelas estarem abertas.`,
+        pelas janelas estarem abertas.</p>
+        <img style="height: auto; width: 256px;" src="../img/carro.png" alt="">`, // CARRO
         "botoes": [
             ["roubar3", "Realmente roubar o carro e ir para muito longe"],
             ["esconder1", "Desistir dessa ideia e ir se <br> esconder em algum lugar longe de todos"], 
@@ -965,14 +1041,17 @@ let choices_data = {
         "conteudo": `Você entra no carro, fica mexendo na fiação dele debaixo do volante para ligar ele. E, pelo incrível 
         que possa ser, você consegue. Você consegue ir para muito longe de onde estava com o carro, seguindo numa linha 
         reta em uma avenida. Depois de mais de oito horas dirigindo, você está a centenas quilômetros de distância da sua 
-        casa e a gasolina do carro acaba.`,
+        casa e a gasolina do carro acaba.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">
+        <img style="height: auto; width: 256px;" src="../img/carro.png" alt="">`, // CARRO
         "botoes": [
             ["continuar24", "Continuar"],
         ]
     },
     'continuar24': {
-        "conteudo": `Você deixa o carro no acostamento e fica sentado no chão olhando para o pôr do sol.
+        "conteudo": `Você deixa o carro no acostamento e fica sentado no chão olhando para o pôr do sol.</p>
         <h1>O jogo acabou, você fugiu e está longe de casa.</h1>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_deserto.png" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
@@ -982,7 +1061,8 @@ let choices_data = {
     'roubar1': {
         "conteudo": `Você vai até uma coveniência próxima de você. Só de entrar na loja, você causa tumulto, as pessoas ficam
         susurrando, e com certeza é sobre você. Você fica na frente de uma estante de comida, pega um grande pacote e fica
-        pronto para fugir.`,
+        pronto para fugir.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">`,
         "botoes": [
             ["roubar4", "Realmente roubar a comida"],
             ["continuar25", "Desistir da ideia e sair sem nada"],
@@ -990,7 +1070,10 @@ let choices_data = {
     },
     'roubar4': {
         "conteudo": `Você sai correndo do estabelecimento, mas isso não dura muito tempo. Você é surpreendido por dois
-        policiais armados no lado de fora. Eles tentam te prender`,
+        policiais armados no lado de fora. Eles tentam te prender.
+        <br> - Não se mexa sua aberração!</p>
+        <img style="height: auto; width: 256px;" src="../img/policial.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/policial_gregorp.png" alt="">`,
         "botoes": [
             ["reagirpolicia1", "Tentar fugir"],
             ["serpreso1", "Deixar te prenderem"]
@@ -998,7 +1081,11 @@ let choices_data = {
     },
     'continuar25': {
         "conteudo": `Você desiste de roubar a loja, então guarda a comida e sai do local normalmente. Contudo, você é 
-        pego de surpresa com dois policiais armados pensando que você é um ladrão e uma aberração. Eles tentam te prender`,
+        pego de surpresa com dois policiais armados pensando que você é um ladrão e uma aberração. Eles tentam te 
+        prender.
+        <br> - Não se mexa sua aberração!</p>
+        <img style="height: auto; width: 256px;" src="../img/policial.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/policial_gregorp.png" alt="">`,
         "botoes": [
             ["reagirpolicia1", "Tentar fugir"],
             ["serpreso1", "Deixar te prenderem"]
@@ -1007,16 +1094,18 @@ let choices_data = {
     'esconder1': {
         "conteudo": `Você fica andando pela cidade, até que encontra um local que dá para você ficar escondido. Não há
         ninguém nesse beco, mas você se lembra que pode se esconder debaixo de uma ponte próxima à um lago que tem na sua
-        cidade.`,
+        cidade.<br> - Não se mexa sua aberração!</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_rua.png" alt="">`,
         "botoes": [
             ["esconderbeco1", "Ficar no beco"],
-            ["esconderponte1", "Ir se esconder debaixo <br> da ponte da cidade"],
+            ["esconderponte1", "Ir se esconder debaixo<br> da ponte da cidade"],
         ]
     },
     'esconderbeco1': {
         "conteudo": `Você fica escondido no beco, vivendo de restos de comida que vê nas ruas. Mas você está ciente que um
-        dia morrerá de fome ou sede.
+        dia morrerá de fome ou sede.</p>
         <h1>O jogo acabou, você fugiu e se escondeu em um beco.</h1>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_beco.png" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
         <button onclick="window.location.href = '../index.html'">Menu</button>`,
@@ -1025,11 +1114,12 @@ let choices_data = {
     },
     'esconderponte1': {
         "conteudo": `Você fica escondido debaixo da ponte, vivendo de restos de comida que vê nas ruas e de peixes no 
-        lago. Mas você está ciente que um dia morrerá de fome ou sede.
+        lago. Mas você está ciente que um dia morrerá de fome ou sede.</p>
         <h1>O jogo acabou, você fugiu e se escondeu debaixo de uma ponte.</h1>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_ponte.png" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
-        <button onclick="window.location.href = '../index.html'">Menu</button>`,
+        <button onclick="window.location.href = '../index.html'">Menu</button>`, // GREGOR DEBAIXO DA PONTE
         "botoes": [
         ]
     },
