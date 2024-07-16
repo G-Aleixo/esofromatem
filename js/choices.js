@@ -79,7 +79,7 @@ let choices_data = {
         tempo, você é surpreendido pelo barulho de sirene do carro de polícia. Antes que você pudesse fazer algo, você é 
         abordado por dois policiais armados e apontando suas armas na sua direção. <br> - Mãos na cabeça aberração!</p>
         <img style="height: auto; width: 256px;" src="../img/policial.png" alt="">
-        <img style="height: auto; width: 256px;" src="../img/policial.png" alt="">`,
+        <img style="height: auto; width: 256px;" src="../img/policial_gregorp.gif" alt="">`,
         "botoes": [
             ["reagirpolicia1", "Tentar fugir"],
             ["serpreso1", "Ficar parado"]
@@ -89,7 +89,7 @@ let choices_data = {
         "conteudo": `Você fica parado e os policiais te prendem depois de te baterem. Você não entende bem o motivo. Você 
         é lavado a prisão e fica numa sala, sozinho, afastado de todos.</p>
         <h1>O jogo acabou, você foi preso.</h1>
-        <img style="height: auto; width: 256px;" src="../img/policial_gregorp.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/policial_gregorp.gif" alt="">
         <img style="height: auto; width: 256px;" src="../img/gregorp_preso.gif" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
@@ -210,7 +210,7 @@ let choices_data = {
     'familiaaceitar1': {
         "conteudo": `Por mais que não seja o melhor dos mundos, grande parte da sociedade aceita as pessoas que tiveram
         essa metamorfose. Então você passou a viver tranquilamente com sua família, como se nada tivesse ocorrido.</p>
-        <h1>O jogo acabou, você foi aceitado pela família.</h1>
+        <h1>O jogo acabou, você foi aceito pela família.</h1>
         <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">
         <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
         <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">
@@ -225,7 +225,7 @@ let choices_data = {
         "conteudo": `Por mais que não seja o melhor dos mundos, grande parte da sociedade aceita as pessoas que tiveram
         essa metamorfose. Você começa a estudar medicina e matérias de ciência para tentar achar a cura dessa doença.
         Você não conseguiu, mas Gregor Samsa é o nome de um dos médicos que ajudou.</p>
-        <h1>O jogo acabou, você foi aceitado pela família.</h1>
+        <h1>O jogo acabou, você foi aceito pela família.</h1>
         <img style="height: auto; width: 256px;" src="../img/gregorp_medico.gif" alt=""> 
         <img style="height: auto; width: 256px;" src="../img/mae.gif" alt="">
         <img style="height: auto; width: 256px;" src="../img/irma.gif" alt="">
@@ -684,7 +684,7 @@ let choices_data = {
         vai ajudar sua família. Você deixa a ponta da faca apontada para o seu pescoço. Mas antes de fazer algo, sua irmã
         aparece chorando.
         <br> - Gregor, não faça isso!</p>
-        <img style="height: auto; width: 256px;" src="../img/faca.png" alt="">`, // FOTO FACA
+        <img style="height: auto; width: 256px;" src="../img/faca.png" alt="">`,
         "botoes": [
             ["irterraco2", "Ir correndo ao terraço"],
             ["pedirajuda3", "Não se matar e pedir ajuda à sua irmã"],
@@ -699,7 +699,7 @@ let choices_data = {
         <img style="height: auto; width: 256px;" src="../img/gregor_lapide.png" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
-        <button onclick="window.location.href = '../index.html'">Menu</button>`, // FACA FOTO
+        <button onclick="window.location.href = '../index.html'">Menu</button>`, 
         "botoes": [
         ]
     },
@@ -725,7 +725,7 @@ let choices_data = {
         Você sabe que vai morrer, mas vai morrer ajudando sua família. Você coloca o líquido num copo, e está prestes a 
         tomar. Mas antes de fazer algo, sua irmã aparece chorando.
         <br> - Gregor, não faça isso!</p>
-        <img style="height: auto; width: 256px;" src="../img/agua.png" alt="">`, // ÁGUA SANITÁRIA
+        <img style="height: auto; width: 256px;" src="../img/aguas.png" alt="">`,
         "botoes": [
             ["irterraco2", "Ir correndo ao terraço"],
             ["pedirajuda3", "Pedir ajuda à sua irmã"],
@@ -1031,7 +1031,7 @@ let choices_data = {
     'roubar2': {
         "conteudo": `Na rua, você vê um carro sem nada dentro, você se aproxima dele e percebe que consegue entrar nele 
         pelas janelas estarem abertas.</p>
-        <img style="height: auto; width: 256px;" src="../img/carro.png" alt="">`, // CARRO
+        <img style="height: auto; width: 256px;" src="../img/carro.png" alt="">`,
         "botoes": [
             ["roubar3", "Realmente roubar o carro e ir para muito longe"],
             ["esconder1", "Desistir dessa ideia e ir se <br> esconder em algum lugar longe de todos"], 
@@ -1043,7 +1043,7 @@ let choices_data = {
         reta em uma avenida. Depois de mais de oito horas dirigindo, você está a centenas quilômetros de distância da sua 
         casa e a gasolina do carro acaba.</p>
         <img style="height: auto; width: 256px;" src="../img/gregorp.gif" alt="">
-        <img style="height: auto; width: 256px;" src="../img/carro.png" alt="">`, // CARRO
+        <img style="height: auto; width: 256px;" src="../img/carro.png" alt="">`,
         "botoes": [
             ["continuar24", "Continuar"],
         ]
@@ -1116,10 +1116,10 @@ let choices_data = {
         "conteudo": `Você fica escondido debaixo da ponte, vivendo de restos de comida que vê nas ruas e de peixes no 
         lago. Mas você está ciente que um dia morrerá de fome ou sede.</p>
         <h1>O jogo acabou, você fugiu e se escondeu debaixo de uma ponte.</h1>
-        <img style="height: auto; width: 256px;" src="../img/gregorp_ponte.png" alt="">
+        <img style="height: auto; width: 256px;" src="../img/gregorp_ponte.gif" alt="">
         <p>Acesse os créditos abaixo ou volte ao início do jogo caso queira jogar novamente :)</p>
         <button onclick="window.location.href = '../html/creditos.html'">Créditos</button>
-        <button onclick="window.location.href = '../index.html'">Menu</button>`, // GREGOR DEBAIXO DA PONTE
+        <button onclick="window.location.href = '../index.html'">Menu</button>`,
         "botoes": [
         ]
     },
