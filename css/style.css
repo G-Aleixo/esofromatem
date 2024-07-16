@@ -6,7 +6,6 @@ body {
 body.menu{
     background-image: url(../img/cidade.gif);
     background-size: cover;
-    background-position: center;
 }
 button {
     background-color: gray;
