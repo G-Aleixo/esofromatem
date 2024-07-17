@@ -292,7 +292,7 @@ let choices_data = {
         eu vou te ajudar com qualquer coisa possível!
         <br> Sua irmã vai atrás do telefone para falar com seu chefe para justificar sua falta. E logo depois, ela volta
         para te dar um grande abraço caloroso.</p>
-        <img style="height: auto; width: 256px;" src="../img/irma_choro.gif" alt="">`, // IRMÃ CHORANDO
+        <img style="height: auto; width: 256px;" src="../img/irma_choro.gif" alt="">`,
         "botoes": [
             ["aceitarajuda2", "Aceitar a ajuda da mãe"],
         ]
@@ -715,9 +715,10 @@ let choices_data = {
     'pularterraco1': {
         "conteudo": `Você pula, e tudo começa a ficar em câmera lenta, você percebe que você não tem mais salvação e 
         começa a chorar no meio da queda. 
-        <br> - Família... eu amo vocês.`,
+        <br> - Família... eu amo vocês.</p>
+        <img style="height: auto; width: 256px;" src="../img/gregorp_choro_caindo" alt="">`,
         "botoes": [
-            ["morrerterraco1", "Continuar"], // GREGOR CHORANDO DE CABEÇA PARA BAIXO 
+            ["morrerterraco1", "Continuar"], 
         ]
     },
     'produtoquimico1': {
@@ -763,7 +764,7 @@ let choices_data = {
         "conteudo": `Você toma uma decisão. Mas antes de fazer algo, sua irmã aparece chorando.
         <br> - Gregor, não faça isso!</p>
         <img style="height: auto; width: 256px;" src="../img/gregorp_predio.png" alt="">
-        <img style="height: auto; width: 256px;" src="../img/irma_choro.gif" alt="">`, // IRMÃ CHORANDO
+        <img style="height: auto; width: 256px;" src="../img/irma_choro.gif" alt="">`,
         "botoes": [
             ["pularterraco2", "Se jogar do terraço na frente da <br> sua irmã para ajudar a família"],
             ["pedirajuda3", "Não se matar e pedir ajuda a sua irmã"],
@@ -773,7 +774,7 @@ let choices_data = {
         "conteudo": `Você muda de ideia, vai até sua irmã e dá um abraço nela. Ambos choram como bebês um no braço do
         outro. Sua irmã te leva ao seu quarto e ela vai até o dela.</p>
         <img style="height: auto; width: 256px;" src="../img/gregorp_choro.gif" alt="">
-        <img style="height: auto; width: 256px;" src="../img/irma_choro.gif" alt="">`, // IRMÃ CHORANDO
+        <img style="height: auto; width: 256px;" src="../img/irma_choro.gif" alt="">`, 
         "botoes": [
             ["continuar14", "Tentar dormir"],
         ]
@@ -783,7 +784,7 @@ let choices_data = {
         <br> - Gregor! Não! - Grita sua irmã, caindo em lágrimas.
         <br> Você pula, e tudo começa a ficar em câmera lenta, você percebe que você não tem mais salvação e 
         começa a chorar no meio da queda.</p>
-        <img style="height: auto; width: 256px;" src="../img/gregorp_choro.gif" alt="">`, // GREGOR CHORANDO DE CABEÇA PARA BAIXO
+        <img style="height: auto; width: 256px;" src="../img/gregorp_choro_caindo" alt="">`, 
         "botoes": [
             ["morrerterraco1", "Continuar"],
         ]
